@@ -1,0 +1,24 @@
+MouseDoubleClick0chemise : ${OnSakuraMenu}
+
+MouseDoubleClick0Head : "\0\s[0]Hmmm...? arrete."
+MouseDoubleClick0Head : "\0\s[4]ARRETE!!!!\w[1000]\0\s[5]...tu me fais mal...\w[3000]\0\s[0]"
+MouseDoubleClick0Head : "\0\s[5]aille... arrete... s'il te plait...\w[3000]\0\s[0]"
+MouseDoubleClick0Head : "\0\s[1]ARRETE CA TOUT DE SUITE\w[3000]\0\s[0]"
+
+MouseDoubleClick0trefle : "\0\s[3]Bonne chance !\w[3000]\0\s[0]"
+
+#MouseDoubleClick1     : ${OnKeroMenu}
+
+strokeLimit : 50
+
+MouseMove0Head : "\0\s[4]OH wow...\w[3000]\0\s[0]"
+MouseMove0Head : "\0\s[3]oh...\w[3000]\0\s[0]"
+MouseMove0Head : "\0\s[4]Je...\w[1000]\0\s[3]ok...\w[3000]\0\s[0]"
+
+MouseMove1body : "\1\s[10]ktktktktktktktkt"
+
+OnFileDrop2 : $(
+	callsaori audio load ${System.Request.Reference0};
+	)
+MouseDoubleClick1play : $(callsaori audio play)
+MouseDoubleClick1stop : $(callsaori audio stop)
