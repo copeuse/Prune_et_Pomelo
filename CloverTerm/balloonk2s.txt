@@ -1,0 +1,20 @@
+origin.x,119
+origin.y,116
+
+validrect.left,121
+validrect.top,118
+validrect.right,348
+validrect.bottom,295
+
+wordwrappoint.x,341
+wordwrappoint.y,270
+
+font.name,Microsoft Sans Serif
+font.height,11
+font.color.r,255
+font.color.g,90
+font.color.b,170
+
+cursor.pen.color.r,255
+cursor.pen.color.g,90
+cursor.pen.color.b,170

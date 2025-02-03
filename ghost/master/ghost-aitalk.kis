@@ -1,0 +1,62 @@
+
+jvCool : "Persona", "Tetris", "Terraria", "Guilty Gear", "Minecraft", "Kid Icarus Uprising", "Super Monkey Ball", "Rayman"
+
+animeCool : "Elfen Lied", "School Days", "Chobits", "Nana", "Puella Magi Madoka Magica"
+
+activite : "faire de la musique", "essayer d'apprendre a coder...\w2 encore...", "faire du velo", "faire du skate ! \1\s[10]tu sais faire ca toi ?\0\s[5]\n\n...pas vraiment... mais j\'adore...\w[1000]\0\s[0]\n\n[half]", "jouer a "${jvCool}"", "regarder "${animeCool}"", "ecouter "${album}""
+
+faire : "je vais surement", "hmmmm..., je pense que je vais", "peut-etre", "comme hier !"
+
+album : "'Boku Mo Wakaran' de Bogdan Raczynski", "'Pay 2 W!N' de thanks god", "'Mecano' du groupe du meme nom, Mecano", "'Claire Is Still Alive And Well' de Technically Not A Bird", "'A Dog's Chance' de Polo Perks", "'SHADOW FUNCTION+' de ghostwerk", "'Some Rap Songs' de Earl Sweatshirt", "'Thinking of You' de Bogdan Raczynski", "'Disco!' de Mike", "'Quinn' de l'artiste du meme nom, Quinn", "'Duwap So Based' de Duwap Kaine", "'.data2' de P1NKF1RE", "'Miami Carol City Legend' de SpaceGhostPurrp", "'Tender Buttons' du groupe Broadcast", "'Floral Green' du groupe Title Fight", "'Stratosphere' de Duster", "'Victory Music' de RealYungPhil", "'Gluee' de Bladee", "'kenopsia' de quannnic", "'Syro' par Aphex Twin", "'Sex Dreams and Denim Jeans' de Uffie", "'Music Has the Right to Children' de Boards of Canada", "'Traditional Synthesize Music' de Venetian Snares", "'Deftones' du goupe du meme nom, Deftones", "'FearDorian' de l'artiste du meme nom, Feardorian", "'Compro' de l'artiste Skee Mask", "'Xrns Trax' de Binary Digit", "'991003034m9' de wiljahelmaz", "'E2-E4' de Manuel Gottsching", "'Fantastic Planet' de Lealani", "'Foreign Exchange' de Rx Papi et Gud", "'Soleil d'hiver' de Georgio","'Cross' de Justice", "'Discovery' des Daft Punk", "'In Love and Death' de The Used"
+
+dubitatif_jv : "\1\s[10]tu as dis que c\'etait "${jvCool}"\npas plus tard qu'hier...", "\1\s[10]et moi qui pensais que c\'etait "${jvCool}"...", "\1\s[10]tu oublies "${jvCool}".","\1\s[10]et "${jvCool}" dans tout ca ?"
+
+dubitatif_album : "\1\s[10]tu as dis que c\'etait "${album}"\npas plus tard qu'hier...", "\1\s[10]et moi qui pensais que c\'etait "${album}"...", "\1\s[10]tu oublies "${album}".","\1\s[10]et "${album}" dans tout ca ?"
+
+gensCool : "Louise", "Bart", "Gee", "Zaki", "Sana", "Jade", "Ambre", "Maxine"
+
+reaction_rumeur : "\0\s[3] wow... on a tellement de point commun c'est fou", "\0\s[1]Et on ne me previens meme pas ? je vois..." "\1\s[10]\n\n[half]tu abuses.","\0\s[5]S...sans moi ??" "\1\s[10]\n\n[half]mais...\w[500]Prune..."
+
+lieuCool : "au DrakArt", "a la Bobine", "a la salle d\'arcade", "a la place Championnet", "au magasin de manga", "au skatepark", "au Quick", "au Tacos", "dans le metro", "dans le tram", "au bar"
+
+malheuresement : "mais l\'idee n'avais pas l\'air de lui plaire...", "mais on a du reporter...", "mais il etait deja tard..."
+
+rav : "\0\s[1]ca n\'a rien a voir...\w[4000]\0\s[0]", "\0\s[1]c\'est different...\w[4000]\0\s[0]", "\0\s[1]oui bon...\w[4000]\0\s[0]", "\0\s[4]Comment j\'ai pu oublier...\w[4000]\0\s[0]"
+
+routine : "\1\s[10]\n\nDecidement...", "\1\s[10]\n\nPour changer...", "\1\s[10]\n\nAmuse toi bien !", "\1\s[10]\n\nEncore??", "\1\s[10]\n\nTu fais bien","\1\s[10]\n\nBonne idee"
+
+journee : "\0\s[2]"${faire}" "${activite}" "${routine}"\w[4000]\0\s[0]", "\0\s[3]je vais rejoindre "${gensCool}" on va "${activite}" "\1\s[10]\n\namusez-vous bien <3\0\s[3]\w[4000]\0\s[0]"
+
+pref : (
+	"\0\s[0]"${jvCool}" est vraiment mon jeux prefere...\n\n"
+	${dubitatif_jv}
+	${rav}
+)
+
+pref : (
+	"\0\s[0]"${album}" est vraiment mon album prefere...\n\n"
+	${dubitatif_album}
+	${rav}
+)
+
+sentence : (
+    "\1\s[10]tu vas faire quoi aujourd'hui ?\n\n[half]"
+    ${journee}
+)
+
+sentence : (
+	"\1\s[10]j'ai entendu dire que "${gensCool}" avait prevu de passer sa journee a "${activite}"
+	${reaction_rumeur}\w[4000]\0\s[0]
+)
+
+sentence : (
+	"\0\s[@]j\'ai croise "${gensCool}" "${lieuCool}"j'aurais aime que l'on puisse "${activite}" "${malheuresement}" "
+)
+
+sentence : ( ${pref} )
+
+talk.OnHourTimeSignal : $(setstr @minute $(date %M)) "\0\s[0]il est %hour:"${@minute}"!"
+
+=kis
+Nonoverlap sentence;
+=end

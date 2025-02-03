@@ -1,0 +1,13 @@
+
+talk.OnUpdateBegin    : "\0\s[0]mise a jour de "$(Reference 0)"..."
+talk.OnUpdateReady    : "\0\s[0]"$(Reference 0)" nouveaux fichiers."
+talk.OnUpdateComplete : "\0\s[0]mise a jour reussi !"
+talk.OnUpdateNone     : "\0\s[0]Pas de nouveaux fichiers."
+talk.OnUpdateFailure  : "\0\s[0]The update failed. '"$(Reference 0)"' is the reason."
+
+talk.OnSNTPBegin   : "\0\s[0]Connection a "$(Reference 0)"..."
+talk.OnSNTPCorrect : "\0\s[0]L'horloge est maintenant a l\'heure !"
+talk.OnSNTPFailure : "\0\s[0]je n'arrive pas a me connecter a "$(Reference 0)"."
+
+talk.OnNewsBegin : "\0\s[0]je regarde le flux"$(Reference 0)"..."
+talk.OnNewsFailure : "\0\s[0]impossible de regarder le flux a cause de'"$(Reference 0)"'."
