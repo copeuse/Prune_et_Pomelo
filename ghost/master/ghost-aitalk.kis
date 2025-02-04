@@ -50,7 +50,7 @@ sentence : (
 )
 
 sentence : (
-	"\0\s[@]j\'ai croise "${gensCool}" "${lieuCool}"j'aurais aime que l'on puisse "${activite}" "${malheuresement}" "
+	"\0\s[@]j\'ai croise "${gensCool}" "${lieuCool}" j'aurais aime que l'on puisse "${activite}" "${malheuresement}" "
 )
 
 sentence : ( ${pref} )
