@@ -6,14 +6,14 @@
 
 =kis
 
+saoriregist mciaudior.dll audio preload;
+
 # Developer Dictionaries
 load dict\dict-functions.kis;
 load dict\dict-event.kis;
 load dict\dict-mouse.kis;
 load dict\dict-menu.kis;
 load profile\dict-savedata.txt;
-
-saoriregist mciaudior.dll audio preload;
 
 # Ghost Dialogue
 load ghost-bootend.kis;
