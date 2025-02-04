@@ -1,12 +1,3 @@
-#--
-# Bootend
-#--
-# This is the area that holds the dialogues related to booting and closing the ghost (and similar events). 
-# If you're starting here, I highly recommend you actually start with 'ghost-aitalk' instead.
-# This file is fairly brief, but you could expand it much more. Setting opening and closing dialogues for certain times of day, for example.
-# Also, this is a handy place to mention that if you don't want to write a lot of responses to events, you can delete the variants.
-# E.G. you could delete any event that names a specific Ghost.
-
 talk.OnFirstBoot   : (
     "\0\s[0]\1\s[10]coucou !.\0\s[0]\w8\Enchantee ! \n\nle coin de cette ecran à l\air plutot confortable. \nca te derange qu'on s'y installent ?"
 )
