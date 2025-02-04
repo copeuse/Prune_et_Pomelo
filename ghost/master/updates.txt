@@ -25,7 +25,7 @@ file,ghost/master/dict/dict-event.kisebf8ef05171d22aab419f9ad9fc53430size=1496
 file,ghost/master/dict/dict-functions.kis05e615d67f4699da715ba68e889dbabesize=4066date=2025-02-04T21:16:52
 file,ghost/master/dict/dict-menu.kis41d4583aa06af6d84de65a1bbad29666size=11207date=2025-02-04T21:16:52
 file,ghost/master/dict/dict-mouse.kis46c38e83de3018f9d05b9137894a962asize=1173date=2025-02-04T21:16:52
-file,ghost/master/ghost-aitalk.kis4490c516091508e7dd00b21b3d944f62size=4802date=2025-02-04T21:16:52
+file,ghost/master/ghost-aitalk.kisc4def38f76afc2b31f80ebbd03390a43size=4802date=2025-02-04T21:32:06
 file,ghost/master/ghost-bootend.kis43d5b0e691b92016c5d3c6669e1b083fsize=1328date=2025-02-04T21:16:52
 file,ghost/master/ghost-etc.kis2015d3e33bba28c5b256eea08a680a8bsize=705date=2025-02-04T21:16:52
 file,ghost/master/ghost-menu.kis33e565987f83e7f59b5f58bcdf9e638esize=2147date=2025-02-04T21:16:52
