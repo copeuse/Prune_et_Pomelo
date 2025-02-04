@@ -7,7 +7,6 @@
 # If you'd like to check out some optional functions, that may be more fun, I suggest checking out the optional files folder.
 # If you're going to keep marching on, good luck! ヾ(•ω•`)o
 
-
 #--
 # SHIORI EVENT HANDLERS
 #--
@@ -17,6 +16,8 @@
 
 # SHIORI 3.0 Standard
 # These event handlers are derived from OpenKEEPS (a Japanese Kawari template), used with permission under their license.
+
+
 
 System.Callback.OnNOTIFY : $(
 	if $(.size notify.$(.encode_entryname ${System.Request.ID})) $(
@@ -142,7 +143,8 @@ OnTranslate : $(
 
 # This happens on ALL booting.
 OnInitialize : (
-	${SaveLoad}
+	${SaveLoad};
+	$(saoriregist mciaudior.dll audio preload);
 )
 # This happens on ALL closing.
 OnDestroy : $(
