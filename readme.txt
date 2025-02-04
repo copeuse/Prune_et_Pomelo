@@ -1,9 +1,11 @@
+#Prune et Pomelo
+
 Ukagaka francophone sous Kawari créée à partir du template CHIPS (https://github.com/Okuajub/CHIPS)
 
 Les Ukagaka, aussi connus sous le nom de "ghost" sont des petits personnages de bureau d'ordinateur, originaire du Japon. plus d'informations (en anglais) : https://ukagakadreamteam.com/
 
 
-Comment installer Prune et Pomelo 
+#Comment installer Prune et Pomelo 
 
 WINDOWS :
 
