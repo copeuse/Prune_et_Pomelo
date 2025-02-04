@@ -1,9 +1,3 @@
-#--
-# Kawarirc.kis
-#--
-# This sets the load order for your Ghost. If you're just going into the files and saving over them, you don't need to touch anything in here.
-# If you need to add a new file, you can add it to the load order here.
-
 =kis
 
 saoriregist mciaudior.dll audio preload;
