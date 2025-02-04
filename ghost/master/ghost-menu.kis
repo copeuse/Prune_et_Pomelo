@@ -3,11 +3,10 @@ SakuMenuTalk : "\0\s[0]Je peux faire quelque-chose pour toi ?","\0\s[0]dis-moi !
 OnSakuraMenu : (
     $( if $[ $(Reference 0) != 1 ] $(setstr MenuDialogue ${SakuMenuTalk}\w4 ) else if $[ $( match ${MenuDialogue} "\_q" ) == -1 ] $(setstr MenuDialogue \_q${MenuDialogue}\_q ) )
 
-
     \t\*\b2${MenuDialogue}\_q\![set,autoscroll,disable]
     \n\n[half]
     \![*]\q[Dis quelque-chose !,OnAITalk]
-    $( if $[ ${lastTalk} ] (\n\n[half]![*]\q[Repete ?,OnLastTalk]) )
+    $( if $[ ${lastTalk} ] (\n\n[half]\![*]\q[Repete ?,OnLastTalk]) )
     \n\n[half]
     \n\n[half]
     \![*]\q[Quitter le menu,OnQuit,0]
