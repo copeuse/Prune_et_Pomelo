@@ -6,7 +6,7 @@ craftman,Alice
 craftmanw,alice
 craftmanurl,https://bsky.app/profile/spaceghostpink.bsky.social
 
-homeurl,https://raw.githubusercontent.com/copeuse/Prune_et_Pomelo/
+homeurl,https://github.com/copeuse/Prune_et_Pomelo/
 
 balloon,CloverTerm
 
