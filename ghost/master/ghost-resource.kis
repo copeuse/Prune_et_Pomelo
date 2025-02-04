@@ -19,7 +19,16 @@ resource.sakura.portalsites : $(urllist
 )
 
 resource.sakura.recommendsites : $(urllist
-	"Kawari Landing Page (JP)"
+	"Ukagaka Wiki (EN)"
+	"https://ukagakadreamteam.com/"
+	"-"
+	"Histoire des premiers ghosts"
+	"https://docs.google.com/document/d/1B9i-jZ9fawXv5UHodOACbccAYXLJ8CxfTsFPMs-r_Ms/edit?tab=t.0"
+	"-"
+	"Meilleur banque de vieux ghosts"
+	"https://docs.google.com/document/d/10fRA2bv8baV9W8mOdstXUcnLl1xLB5PRKC5_F9PSTpM/edit?tab=t.0"
+	"-"
+	"Kawari (JP)"
 	"https://kawari.github.io/"
 	"-" 
 	"Kawari Documentation (EN)"
