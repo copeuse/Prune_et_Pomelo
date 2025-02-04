@@ -41,7 +41,7 @@ collision2,220,165,364,441,chemise
 surface10
 {
 
-collision0,191,447,350,169,body
+collision0,191,447,350,542,body
 collision1,291,462,310,490,play
 collision2,335,462,360,490,stop
 
