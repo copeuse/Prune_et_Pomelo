@@ -1,4 +1,4 @@
-homeurl : "https://dummy.url/"
+homeurl : "https://raw.githubusercontent.com/copeuse/Prune_et_Pomelo/"
 
 resource.sakura.portalsites : $(urllist
 	"BlueSky"
