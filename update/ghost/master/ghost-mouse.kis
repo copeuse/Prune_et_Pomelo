@@ -25,6 +25,6 @@ MouseDoubleClick1play : $(
 	callsaori audio play;
 )
 MouseDoubleClick1stop : $(
-	\0\s[0];
+	"\0\s[0]";
 	callsaori audio stop;
 )
