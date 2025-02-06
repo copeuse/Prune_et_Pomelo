@@ -1,6 +1,6 @@
 # Prune et Pomelo
 
-![prune_et_pomelo](https://raw.githubusercontent.com/copeuse/Prune_et_Pomelo/refs/heads/reorganis%C3%A9/thumbnailPrune.png)
+![prune_et_pomelo](https://raw.githubusercontent.com/copeuse/Prune_et_Pomelo/refs/heads/main/thumbnailPrune.png)
 
 
 Ukagaka francophone sous Kawari créée à partir du template [CHIPS](https://github.com/Okuajub/CHIPS)
