@@ -1,0 +1,52 @@
+SakuMenuTalk : "\0\s[0]Je peux faire quelque-chose pour toi ?","\0\s[0]dis-moi !","\0\s[0]Oui ?"
+
+OnSakuraMenu : (
+    $( if $[ $(Reference 0) != 1 ] $(setstr MenuDialogue ${SakuMenuTalk}\w4 ) else if $[ $( match ${MenuDialogue} "\_q" ) == -1 ] $(setstr MenuDialogue \_q${MenuDialogue}\_q ) )
+
+    \t\*\b2${MenuDialogue}\_q\![set,autoscroll,disable]
+    \n\n[half]
+    \![*]\q[Dis quelque-chose !,OnAITalk]
+    $( if $[ ${lastTalk} ] (\n\n[half]\![*]\q[Repete ?,OnLastTalk]) )
+    \n\n[half]
+    \n\n[half]
+    \![*]\q[Quitter le menu,OnQuit,0]
+    \n\n
+
+    $(setstr @interval ${talkinterval})
+    $( if $[ ${@interval} == 'Never' ] $(setstr @form "") else if $[ ${@interval} > 59 ] $( setstr @interval $[ ${@interval} / 60 ]; setstr @form minutes ) else $( setstr @form seconds ) )
+    $(if $[${@interval} == 1] $(setstr @form minute))
+
+    "\f[italic,true]Parle toute les:" ${@interval} ${@form}\n\f[italic,default]
+    \![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]
+    "\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]"
+    \n\n[half]
+
+    $(setstr @weekday $(if $[$(date %w) == 0] "Dimanche" else if $[$(date %w) == 1] "Lundi" else if $[$(date %w) == 2] "Mardi" else if $[$(date %w) == 3] "Mercredi" else if $[$(date %w) == 4] "Jeudi" else if $[$(date %w) == 5] "Vendredi" else if $[$(date %w) == 6] "Samedi"))
+    $(setstr @hour $(date %H); setstr @minute $(date %M))
+
+    \f[italic,true]${@weekday}", %day/%month, "${@hour}":"${@minute}\f[italic,default]
+)
+
+
+
+OnAssignTalkRate : (
+    $( setstr talkinterval $(Reference 0); set @dialogue $(Reference 1) )
+    "\![raise,OnSakuraMenu,1]"
+)
+
+OnQuit : $(
+    if $[$(Reference 0) == 0] \![close,inputbox,__SYSTEM_ALL_INPUT__]${SakuraQuit}
+    else \![close,inputbox,__SYSTEM_ALL_INPUT__]${KeroQuit}
+)
+
+SakuraQuit : "\0\s[0]ok !", "\0\s[0]Pas de soucis !"
+
+OnLastTalk : ${lastTalk}
+
+OnShowData : $(
+    foreach @entries savedataParam $( echo "\b2"${@entries}": "; echo ${${@entries}}"\n" )
+)
+
+OnTestVariable : (
+    "\1\s[10]test en cours !\n\n[half]"
+)

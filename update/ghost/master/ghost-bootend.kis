@@ -1,0 +1,25 @@
+talk.OnFirstBoot   : (
+    "\0\s[0]\1\s[10]coucou !.\0\s[0]\w8\Enchantee ! \n\nle coin de cette ecran à l\air plutot confortable. \nca te derange qu'on s'y installent ?"
+)
+talk.OnReinstall   : "\1\s[10]\0\s[4]Tu me reinstalle ??"
+talk.OnLotsInstall : "\0\s[0]\1\s[10]ca fais beaucoup de reinstallation..."
+
+talk.OnGhostChanging : "\1\s[10]\0\s[5]Oh... amusez vous bien...\1\s[10]faut vraiment que tu travailles sur cette peur de l\'abandon..."
+talk.OnGhostReloading : "\1\s[10]\0\s[0]oulaa... \w8j'espere que je fonctionne bien..."
+talk.OnGhostChanged      : "\1\s[10]\0\s[3]yahouuu!!!\e"
+talk.OnGhostReloaded     : "\1\s[10]\0\s[0]...c'est mieux ?"
+talk.OnGhostCalling      : "\0\s[2]Coucou" $(Reference 0)"!\1\s[0]\w4cc <3"
+
+talk.OnShellChanged       : "\1\s[10]\0\s[4]OMG ça me vas bien ??"
+talk.OnShellChangedMaster : "\0\s[0]\1\s[10]trop belle !!\0\s[0]merci beaucoup..."
+
+talk.OnWindowStateRestore : "\1\s[10]\0\s[4]fiouuuuuu...\n\1\s[10]c'était dur de respirer la-bas dessous..."
+
+talk.OnBoot : "\1\s[10]\0\s[0]cc <3"
+talk.OnBoot : "\1\s[10]\0\s[0]coucouuu trop heureuse de te revoir"
+
+talk.OnClose : "\0\s[0]Oh... aurevoir !"
+talk.OnClose : "\1\s[10]\0\s[0]a bientot j'espere !"
+talk.OnClose : "\1\s[10]\0\s[0]Bisous ! j'espere que tu penseras un peu a moi <3"
+talk.OnClose : "\1\s[10]\0\s[0]deja...?\_w[500]bisous"
+
