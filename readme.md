@@ -12,7 +12,7 @@ Les Ukagaka, aussi connus sous le nom de "ghost" sont des petits personnages de 
 
 WINDOWS :
 
-installer SSP : rendez vous sur [ce site](https://sspnormal.shillest.net/) ca peu etre intimidant car la page est en japonais, mais il suffit de cliquer sur ce gros bouton 
+installer SSP : rendez vous sur [ce site](https://sspnormal.shillest.net/), ca peu etre intimidant car la page est en japonais, mais il suffit de cliquer sur ce gros bouton 
 
 ![bouton](https://ukagakadreamteam.com/wiki/_media/guide/beginner_guide/ssp_download_buttons.png)
 
