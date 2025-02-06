@@ -29,7 +29,7 @@ file,ghost/master/ghost-aitalk.kis142119539917c530bba51a7c9d8c4348size=4802da
 file,ghost/master/ghost-bootend.kis43d5b0e691b92016c5d3c6669e1b083fsize=1328date=2025-02-06T20:36:18
 file,ghost/master/ghost-etc.kis5d4716b4f61044037d94ed0fb5820dbesize=706date=2025-02-06T20:36:18
 file,ghost/master/ghost-menu.kis33e565987f83e7f59b5f58bcdf9e638esize=2147date=2025-02-06T20:36:18
-file,ghost/master/ghost-mouse.kisba98c8e1f1c77c2655680e0bc001dde9size=988date=2025-02-06T20:36:18
+file,ghost/master/ghost-mouse.kis368a2d7e27016cf126e3fec20912522csize=986date=2025-02-06T20:45:38
 file,ghost/master/ghost-resource.kis3b148680b38eee4a3110c970778ba234size=1357date=2025-02-06T20:36:18
 file,ghost/master/icon.icofee441fe20a91a8e4c82eeb547ca82b0size=150date=2025-02-06T20:36:18
 file,ghost/master/kawarirc.kiseb0a530a36d7f49aa4af2ed592e5c397size=527date=2025-02-06T20:36:18
