@@ -1,4 +1,0 @@
-validrect.bottom,428
-
-
-wordwrappoint.y,404
