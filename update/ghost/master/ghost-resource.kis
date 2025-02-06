@@ -1,4 +1,4 @@
-homeurl : "https://raw.githubusercontent.com/copeuse/Prune_et_Pomelo/master/"
+homeurl : "https://raw.githubusercontent.com/copeuse/Prune_et_Pomelo/master/update"
 
 resource.sakura.portalsites : $(urllist
 	"BlueSky"
@@ -16,6 +16,9 @@ resource.sakura.portalsites : $(urllist
 	"Tumblr"
 	"https://www.tumblr.com/blog/spaceghostpink"
 	"-"
+	"last.fm"
+	"https://www.last.fm/fr/user/spaceghostpink"
+	"-"
 )
 
 resource.sakura.recommendsites : $(urllist
@@ -28,9 +31,6 @@ resource.sakura.recommendsites : $(urllist
 	"Meilleur banque de vieux ghosts"
 	"https://docs.google.com/document/d/10fRA2bv8baV9W8mOdstXUcnLl1xLB5PRKC5_F9PSTpM/edit?tab=t.0"
 	"-"
-	"Kawari (JP)"
-	"https://kawari.github.io/"
-	"-" 
 	"Kawari Documentation (EN)"
 	"https://okuajub-netspace.neocities.org/Kawari/"
 	"-"
@@ -42,6 +42,9 @@ resource.sakura.recommendsites : $(urllist
 	"-"
 	"SAORI Collection (JP)"
 	"http://umeici.onjn.jp/etcetera/saoricollect.html"
+	"-"
+	"SAORI-basic (EN)"
+	"https://ukagaka.zichqec.com/guide/creating_saori-basic"
 	"-"
 )
 

@@ -29,7 +29,7 @@ animation3.pattern1,overlay,-1,100,0,0
 
 }
 
-surface3,surface4,surface5
+surface3,surface4,surface5,surface6
 {
 
 collision0,235,44,358,144,Head

@@ -1,6 +1,6 @@
 talk.OnUpdateBegin    : "\0\s[0]mise a jour de "$(Reference 0)"..."
 talk.OnUpdateReady    : "\0\s[0]"$(Reference 0)" nouveaux fichiers."
-talk.OnUpdateComplete : "\0\s[0]mise a jour reussi !"
+talk.OnUpdateComplete : "\0\s[0]mise a jour reussie !"
 talk.OnUpdateNone     : "\0\s[0]Pas de nouveaux fichiers."
 talk.OnUpdateFailure  : "\0\s[0]mise a jour impossible, erreur '"$(Reference 0)"' "
 

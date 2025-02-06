@@ -7,8 +7,6 @@ MouseDoubleClick0Head : "\0\s[1]ARRETE CA TOUT DE SUITE\w[3000]\0\s[0]"
 
 MouseDoubleClick0trefle : "\0\s[3]Bonne chance !\w[3000]\0\s[0]"
 
-#MouseDoubleClick1     : ${OnKeroMenu}
-
 strokeLimit : 50
 
 MouseMove0Head : "\0\s[4]OH wow...\w[3000]\0\s[0]"
@@ -19,6 +17,14 @@ MouseMove1body : "\1\s[10]ktktktktktktktkt"
 
 OnFileDrop2 : $(
 	callsaori audio load ${System.Request.Reference0};
+	setstr mp3 "oui";
+	"\1\s[1]double cliques sur mon oreille gauche pour jouer la musique, et mon oreille droite pour arreter";
 	)
-MouseDoubleClick1play : $(callsaori audio play)
-MouseDoubleClick1stop : $(callsaori audio stop)
+MouseDoubleClick1play : $(
+	if $[ ${mp3} == "oui" ] \0\s[6];
+	callsaori audio play;
+)
+MouseDoubleClick1stop : $(
+	\0\s[0];
+	callsaori audio stop;
+)
