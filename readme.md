@@ -18,7 +18,7 @@ installer SSP : rendez vous sur [ce site](https://sspnormal.shillest.net/), ca p
 
 SSP s'ouvre avec un Ghost pré-installé, Emily. Clique droit sur Emily --> Language --> English  pour mettre SSP en anglais
 
-[TELECHARGER PRUNE ET POMELO](https://github.com/copeuse/Prune_et_Pomelo/releases) cliquez sur le .nar le plus recent 
+[TELECHARGER PRUNE ET POMELO](https://github.com/copeuse/Prune_et_Pomelo/raw/refs/heads/main/Prune_et_Pomelo.nar)
 
 drag n drop le .nar sur Emily, cliquer sur OK, Prune devrait s'installer !
 
