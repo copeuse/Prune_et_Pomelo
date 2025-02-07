@@ -13,7 +13,7 @@ dubitatif_jv : "\1\s[10]tu as dis que c\'etait "${jvCool}"\npas plus tard qu'hie
 
 dubitatif_album : "\1\s[10]tu as dis que c\'etait "${album}"\npas plus tard qu'hier...", "\1\s[10]et moi qui pensais que c\'etait "${album}"...", "\1\s[10]tu oublies "${album}".","\1\s[10]et "${album}" dans tout ca ?"
 
-gensCool : "Louise", "Bart", "Gee", "Zaki", "Coco", "Jade", "Ambre", "Maxine"
+gensCool : "Louise", "Bart", "Gee", "Zaki", "Coco", "Jade", "Ambre", "Maxine", "Louxy"
 
 reaction_rumeur : "\0\s[3] wow... on a tellement de point commun c'est fou", "\0\s[1]Et on ne me previens meme pas ? je vois..." "\1\s[10]\n\n[half]tu abuses.","\0\s[5]S...sans moi ??" "\1\s[10]\n\n[half]mais...\w[500]Prune..."
 
