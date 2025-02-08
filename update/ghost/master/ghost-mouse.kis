@@ -5,7 +5,13 @@ MouseDoubleClick0Head : "\0\s[4]ARRETE!!!!\w[1000]\0\s[5]...tu me fais mal...\w[
 MouseDoubleClick0Head : "\0\s[5]aille... arrete... s'il te plait...\w[3000]\0\s[0]"
 MouseDoubleClick0Head : "\0\s[1]ARRETE CA TOUT DE SUITE\w[3000]\0\s[0]"
 
-MouseDoubleClick0trefle : "\0\s[3]Bonne chance !\w[3000]\0\s[0]"
+MouseDoubleClick0trefle : (
+
+	"\0\s[3]Bonne chance !";
+	callsaorix fenetre fenetre_info enum;
+	"\0\s[0]${fenetre_info.Value0}";
+
+)
 
 strokeLimit : 50
 
