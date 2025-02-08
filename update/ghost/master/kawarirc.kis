@@ -1,6 +1,7 @@
 =kis
 
 saoriregist mciaudior.dll audio preload;
+saoriregist window_info.dll fenetre enum;
 
 # Developer Dictionaries
 load dict\dict-functions.kis;
