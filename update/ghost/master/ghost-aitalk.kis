@@ -3,7 +3,7 @@ jvCool : "Persona", "Tetris", "Terraria", "Guilty Gear", "Minecraft", "Kid Icaru
 
 animeCool : "Elfen Lied", "School Days", "Chobits", "Nana", "Puella Magi Madoka Magica"
 
-activite : "faire de la musique", "essayer d'apprendre a coder...\w2 encore...", "faire du velo", "faire du skate ! \1\s[10]tu sais faire ca toi ?\0\s[5]\n\n...pas vraiment... mais j\'adore...\w[1000]\0\s[0]\n\n[half]", "jouer a "${jvCool}"", "regarder "${animeCool}"", "ecouter "${album}""
+activite : "jouer a magic", "faire de la musique", "essayer d'apprendre a coder...\w2 encore...", "faire du velo", "faire du skate ! \1\s[10]tu sais faire ca toi ?\0\s[5]\n\n...pas vraiment... mais j\'adore...\w[1000]\0\s[0]\n\n[half]", "jouer a "${jvCool}"", "regarder "${animeCool}"", "ecouter "${album}""
 
 faire : "je vais surement", "hmmmm..., je pense que je vais", "peut-etre", "comme hier !"
 
