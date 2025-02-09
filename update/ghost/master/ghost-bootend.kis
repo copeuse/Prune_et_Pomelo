@@ -10,7 +10,7 @@ talk.OnGhostChanged      : "\1\s[10]\0\s[3]yahouuu!!!\e"
 talk.OnGhostReloaded     : "\1\s[10]\0\s[0]...c'est mieux ?"
 talk.OnGhostCalling      : "\0\s[2]Coucou" $(Reference 0)"!\1\s[0]\w4cc <3"
 
-talk.OnShellChanged       : "\1\s[10]\0\s[4]OMG ça me vas bien ??"
+talk.OnShellChanged       : "\1\s[10]\0\s[4]OMG ca me vas bien ??"
 talk.OnShellChangedMaster : "\0\s[0]\1\s[10]trop belle !!\0\s[0]merci beaucoup..."
 
 talk.OnWindowStateRestore : "\1\s[10]\0\s[4]fiouuuuuu...\n\1\s[10]c'était dur de respirer la-bas dessous..."
