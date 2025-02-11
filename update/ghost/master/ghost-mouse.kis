@@ -17,11 +17,13 @@ MouseMove1body : "\1\s[10]ktktktktktktktkt"
 
 OnFileDrop2 : $(
 	setstr mp3 "oui";
-	"\1\s[1]double cliques sur mon oreille gauche pour jouer la musique, et mon oreille droite pour arreter";
+	setstr chemin "${System.Request.Reference0}"
+	"\![sound,load,${chemin}\1\s[1]double cliques sur mon oreille gauche pour jouer la musique, et mon oreille droite pour arreter";
 	)
 MouseDoubleClick1play : $(
 	if $[ ${mp3} == "oui" ] \0\s[6];
+	\![sound,play,${chemin}]
 )
 MouseDoubleClick1stop : $(
-	\0\s[0];
+	"\![sound,stop]\0\s[0]";
 )
