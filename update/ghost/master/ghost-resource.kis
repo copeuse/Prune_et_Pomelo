@@ -8,7 +8,7 @@ resource.sakura.portalsites : $(urllist
 	"https://github.com/copeuse/Prune_et_Pomelo"
 	"-"
 	"Bandcamp"
-	"https://n2v2.bandcamp.com/track/sappey-funk"
+	"https://n2v2.bandcamp.com/"
 	"-"
 	"Soundcloud"
 	"https://soundcloud.com/n2v2"
