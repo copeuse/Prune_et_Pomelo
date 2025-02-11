@@ -1,7 +1,7 @@
 =kis
 
 saoriregist mciaudior.dll audio preload;
-saoriregist window_info.dll fenetre preload;
+saoriregist window_info.dll fenetre loadoncall;
 
 # Developer Dictionaries
 load dict\dict-functions.kis;
