@@ -5,10 +5,7 @@ MouseDoubleClick0Head : "\0\s[4]ARRETE!!!!\w[1000]\0\s[5]...tu me fais mal...\w[
 MouseDoubleClick0Head : "\0\s[5]aille... arrete... s'il te plait...\w[3000]\0\s[0]"
 MouseDoubleClick0Head : "\0\s[1]ARRETE CA TOUT DE SUITE\w[3000]\0\s[0]"
 
-MouseDoubleClick0trefle : $(
-	callsaori fenetre enum;
-	"\0\s[0]${System.Response.Value0}";
-)
+MouseDoubleClick0trefle : "\0\s[0]Bonne chance <3"
 
 strokeLimit : 50
 
