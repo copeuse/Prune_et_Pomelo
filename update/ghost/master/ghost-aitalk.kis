@@ -63,4 +63,8 @@ talk.OnHourTimeSignal : $(setstr @minute $(date %M)) "\0\s[0]il est %hour:"${@mi
 
 =kis
 Nonoverlap sentence;
+Nonoverlap jvCool;
+Nonoverlap animeCool;
+Nonoverlap album;
 =end
+
