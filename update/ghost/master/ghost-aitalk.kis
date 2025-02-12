@@ -1,9 +1,9 @@
 
-jvCool : "Persona", "Tetris", "Terraria", "Guilty Gear", "Minecraft", "Kid Icarus Uprising", "Super Monkey Ball", "Rayman"
+jvCool : "Persona", "Tetris", "Terraria", "Guilty Gear", "Minecraft", "Kid Icarus Uprising", "Super Monkey Ball", "Rayman", "Balatro", "Dead Cells"
 
 animeCool : "Elfen Lied", "School Days", "Chobits", "Nana", "Puella Magi Madoka Magica"
 
-activite : "faire de la musique", "essayer d'apprendre a coder...\w2 encore...", "faire du velo", "faire du skate ! \1\s[10]tu sais faire ca toi ?\0\s[5]\n\n...pas vraiment... mais j\'adore...\w[1000]\0\s[0]\n\n[half]", "jouer a "${jvCool}"", "regarder "${animeCool}"", "ecouter "${album}""
+activite : "jouer a magic", "faire de la musique", "essayer d'apprendre a coder...\w2 encore...", "faire du velo", "faire du skate ! \1\s[10]tu sais faire ca toi ?\0\s[5]\n\n...pas vraiment... mais j\'adore...\w[1000]\0\s[0]\n\n[half]", "jouer a "${jvCool}"", "regarder "${animeCool}"", "ecouter "${album}""
 
 faire : "je vais surement", "hmmmm..., je pense que je vais", "peut-etre", "comme hier !"
 
@@ -13,7 +13,7 @@ dubitatif_jv : "\1\s[10]tu as dis que c\'etait "${jvCool}"\npas plus tard qu'hie
 
 dubitatif_album : "\1\s[10]tu as dis que c\'etait "${album}"\npas plus tard qu'hier...", "\1\s[10]et moi qui pensais que c\'etait "${album}"...", "\1\s[10]tu oublies "${album}".","\1\s[10]et "${album}" dans tout ca ?"
 
-gensCool : "Louise", "Bart", "Gee", "Zaki", "Coco", "Jade", "Ambre", "Maxine"
+gensCool : "Louise", "Bart", "Gee", "Zaki", "Coco", "Jade", "Ambre", "Maxine", "Louxy"
 
 reaction_rumeur : "\0\s[3] wow... on a tellement de point commun c'est fou", "\0\s[1]Et on ne me previens meme pas ? je vois..." "\1\s[10]\n\n[half]tu abuses.","\0\s[5]S...sans moi ??" "\1\s[10]\n\n[half]mais...\w[500]Prune..."
 
@@ -63,4 +63,8 @@ talk.OnHourTimeSignal : $(setstr @minute $(date %M)) "\0\s[0]il est %hour:"${@mi
 
 =kis
 Nonoverlap sentence;
+Nonoverlap jvCool;
+Nonoverlap animeCool;
+Nonoverlap album;
 =end
+

@@ -1,7 +1,5 @@
 =kis
 
-saoriregist mciaudior.dll audio preload;
-
 # Developer Dictionaries
 load dict\dict-functions.kis;
 load dict\dict-event.kis;

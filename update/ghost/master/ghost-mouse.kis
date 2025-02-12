@@ -5,7 +5,7 @@ MouseDoubleClick0Head : "\0\s[4]ARRETE!!!!\w[1000]\0\s[5]...tu me fais mal...\w[
 MouseDoubleClick0Head : "\0\s[5]aille... arrete... s'il te plait...\w[3000]\0\s[0]"
 MouseDoubleClick0Head : "\0\s[1]ARRETE CA TOUT DE SUITE\w[3000]\0\s[0]"
 
-MouseDoubleClick0trefle : "\0\s[3]Bonne chance !\w[3000]\0\s[0]"
+MouseDoubleClick0trefle : "\0\s[0]Bonne chance <3"
 
 strokeLimit : 50
 
@@ -15,16 +15,16 @@ MouseMove0Head : "\0\s[4]Je...\w[1000]\0\s[3]ok...\w[3000]\0\s[0]"
 
 MouseMove1body : "\1\s[10]ktktktktktktktkt"
 
+mp3drop : "\![sound,load,${chemin}\1\s[10]double cliques sur mon oreille gauche pour jouer la musique, et mon oreille droite pour arreter"
+
 OnFileDrop2 : $(
-	callsaori audio load ${System.Request.Reference0};
 	setstr mp3 "oui";
-	"\1\s[1]double cliques sur mon oreille gauche pour jouer la musique, et mon oreille droite pour arreter";
+	setstr chemin ${System.Request.Reference0};
+	if $[ ${mp3} == "oui" ] \1\s[10]${mp3drop};
 	)
 MouseDoubleClick1play : $(
-	if $[ ${mp3} == "oui" ] \0\s[6];
-	callsaori audio play;
+	if $[ ${mp3} == "oui" ] \![sound,play,${chemin}]\0\s[6]
 )
 MouseDoubleClick1stop : $(
-	\0\s[0];
-	callsaori audio stop;
+	if $[ ${mp3} == "oui" ] \![sound,stop]\0\s[0]
 )
