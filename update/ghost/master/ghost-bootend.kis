@@ -1,5 +1,5 @@
 talk.OnFirstBoot   : (
-    "\0\s[0]\1\s[10]coucou !.\0\s[0]\w8\Enchantee ! \n\nle coin de cette ecran à l\air plutot confortable. \nca te derange qu'on s'y installent ?"
+    "\0\s[0]\1\s[10]coucou !.\0\s[0]\w8\Enchantee ! \n\nle coin de cette ecran à l\air plutot confortable. \nca te derange qu\'on s\'y installent ?"
 )
 talk.OnReinstall   : "\1\s[10]\0\s[4]Tu me reinstalle ??"
 talk.OnLotsInstall : "\0\s[0]\1\s[10]ca fais beaucoup de reinstallation..."
