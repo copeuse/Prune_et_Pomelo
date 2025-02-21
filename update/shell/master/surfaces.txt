@@ -16,7 +16,7 @@ animation10.pattern0,overlayfast,1001,200,0,0
 animation10.pattern2,overlay,-1,30,0,0
 
 #cigs
-animation11.interval,random,30
+animation11.interval,random,50
 animation11.pattern0,overlayfast,1003,1200,0,0
 animation11.pattern1,overlayfast,1004,1200,0,0
 animation11.pattern2,overlayfast,1005,1200,0,0
