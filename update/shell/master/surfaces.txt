@@ -3,7 +3,7 @@ descript
   version,1
 }
 
-surface0,surface1
+surface0,surface2
 {
 
 collision0,235,44,358,144,Head
@@ -37,7 +37,7 @@ animation3.pattern1,overlay,-1,100,0,0
 
 }
 
-surface2
+surface1
 {
 
 collision0,235,44,358,144,Head
