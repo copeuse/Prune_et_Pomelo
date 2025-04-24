@@ -1,0 +1,8183 @@
+[SHIORI/SAORI Adapter] Load finished.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET Version SHIORI/2.6
+Charset: UTF-8
+Sender: SSP
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Craftman: KawariDeveloperTeam
+ID: KAWARI.kdt
+Version: 8.2.8
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnLanguageChange
+Reference0: English
+Reference1: 1033
+Reference2: Z:\home\alice\Documents\logiciels\ssp\data\language\english\
+Reference3: http://ssp.shillest.net/ukadoc/ssphelp/
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnInitialize
+Reference0: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+Load at 1745513980
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: ownerghostname
+Reference0: Prune
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: basewareversion
+Reference0: 2.6.96
+Reference1: SSP
+Reference2: 2.6.96.3000
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: capability
+Reference0: request.status
+Reference1: request.securitylevel
+Reference10: response.age
+Reference11: response.x-sstp-passthru
+Reference12: response.valuenotify
+Reference13: response.securitylevel
+Reference14: response.requestcharset
+Reference2: request.baseid
+Reference3: request.sendertype
+Reference4: request.x-sstp-passthru
+Reference5: response.marker
+Reference6: response.markersend
+Reference7: response.errorlevel
+Reference8: response.errordescription
+Reference9: response.balloonoffset
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyOSInfo
+Reference0: WindowsNT,10.0,Windows 10 21H1 Wow64@x64
+Reference1: Intel,1900,0.6.14.6,bfebfbff
+Reference2: 7296092,4194176
+Reference3: 1901
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyInternationalInfo
+Reference0: -60
+Reference1: 1
+Reference2: FR
+Reference3: fr
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyFontInfo
+Reference0: BankGothic Md BT
+Reference1: Caladea
+Reference10: Existence Unicase
+Reference100: GulimChe
+Reference101: Gungsuh
+Reference102: GungsuhChe
+Reference103: KaiTi
+Reference104: Malgun Gothic
+Reference105: Meiryo
+Reference106: Meiryo UI
+Reference107: Microsoft JhengHei
+Reference108: Microsoft JhengHei UI
+Reference109: Microsoft YaHei
+Reference11: Expansiva
+Reference110: Microsoft YaHei UI
+Reference111: MingLiU
+Reference112: MingLiU-ExtB
+Reference113: MS Gothic
+Reference114: MS Mincho
+Reference115: MS PGothic
+Reference116: MS PMincho
+Reference117: MS UI Gothic
+Reference118: NSimSun
+Reference119: PMingLiU
+Reference12: Feena Casual
+Reference120: PMingLiU-ExtB
+Reference121: SimHei
+Reference122: SimKai
+Reference123: SimSun
+Reference124: SimSun-ExtB
+Reference125: UD Digi KyoKasho N-R
+Reference126: UD Digi KyoKasho NK-R
+Reference127: UD Digi KyoKasho NP-R
+Reference128: Yu Gothic
+Reference129: Yu Gothic UI
+Reference13: Dingytwo
+Reference130: Yu Mincho
+Reference131: ÉÅÉCÉäÉI
+Reference132: ??
+Reference133: ???
+Reference134: ??
+Reference135: ???
+Reference136: ?? ??
+Reference137: ??
+Reference138: ???
+Reference139: ÇlÇr ÉSÉVÉbÉN
+Reference14: FreeMono
+Reference140: ÇlÇr ñæí©
+Reference141: ÇlÇr ÇoÉSÉVÉbÉN
+Reference142: ÇlÇr Çoñæí©
+Reference143: AvantGarde LT Medium
+Reference144: Bitstream Vera Sans
+Reference145: Bitstream Vera Sans Mono
+Reference146: Bitstream Vera Serif
+Reference147: Bookman Uralic
+Reference148: C059
+Reference149: Cantarell Extra Bold
+Reference15: FreeSans
+Reference150: Cantarell Light
+Reference151: Cantarell Thin
+Reference152: Chancery Uralic
+Reference153: cmex10
+Reference154: cmmi10
+Reference155: cmr10
+Reference156: cmsy10
+Reference157: Courier
+Reference158: D050000L
+Reference159: DejaVu Sans Condensed
+Reference16: FreeSerif
+Reference160: DejaVu Sans Light
+Reference161: DejaVu Serif Condensed
+Reference162: Droid Sans Fallback
+Reference163: dsrom10
+Reference164: esint10
+Reference165: eufm10
+Reference166: Existence Light
+Reference167: Existence Unicase Light
+Reference168: Fixedsys
+Reference169: FontAwesome
+Reference17: Future
+Reference170: Good Times Rg
+Reference171: Gothic Uralic
+Reference172: ITC Avant Garde Pro XLt
+Reference173: Liberation Sans Narrow
+Reference174: Mono Uralic
+Reference175: MS Sans Serif
+Reference176: msam10
+Reference177: msbm10
+Reference178: Nimbus Mono PS
+Reference179: Nimbus Roman
+Reference18: GE Inspira
+Reference180: Nimbus Sans
+Reference181: Nimbus Sans Narrow
+Reference182: Noto Kufi Arabic
+Reference183: Noto Looped Lao Bold
+Reference184: Noto Looped Lao Regular
+Reference185: Noto Looped Thai Bold
+Reference186: Noto Looped Thai Regular
+Reference187: Noto Music
+Reference188: Noto Naskh Arabic
+Reference189: Noto Nastaliq Urdu
+Reference19: GeosansLight
+Reference190: Noto Rashi Hebrew
+Reference191: Noto Sans
+Reference192: Noto Sans Adlam
+Reference193: Noto Sans Adlam Unjoined
+Reference194: Noto Sans AnatoHiero
+Reference195: Noto Sans Arabic
+Reference196: Noto Sans Armenian
+Reference197: Noto Sans Avestan
+Reference198: Noto Sans Balinese
+Reference199: Noto Sans Bamum
+Reference2: Cantarell
+Reference20: Good Times
+Reference200: Noto Sans Bassa Vah
+Reference201: Noto Sans Batak
+Reference202: Noto Sans Bengali
+Reference203: Noto Sans Bhaiksuki
+Reference204: Noto Sans Brahmi
+Reference205: Noto Sans Buginese
+Reference206: Noto Sans Buhid
+Reference207: Noto Sans CanAborig
+Reference208: Noto Sans Carian
+Reference209: Noto Sans CaucAlban
+Reference21: Infini
+Reference210: Noto Sans Chakma
+Reference211: Noto Sans Cham
+Reference212: Noto Sans Cherokee
+Reference213: Noto Sans Coptic
+Reference214: Noto Sans Cuneiform
+Reference215: Noto Sans Cypriot
+Reference216: Noto Sans Deseret
+Reference217: Noto Sans Devanagari
+Reference218: Noto Sans Display
+Reference219: Noto Sans Duployan
+Reference22: Infini Picto
+Reference220: Noto Sans EgyptHiero
+Reference221: Noto Sans Elbasan
+Reference222: Noto Sans Elymaic
+Reference223: Noto Sans Ethiopic
+Reference224: Noto Sans Georgian
+Reference225: Noto Sans Glagolitic
+Reference226: Noto Sans Gothic
+Reference227: Noto Sans Grantha
+Reference228: Noto Sans Gujarati
+Reference229: Noto Sans Gunjala Gondi
+Reference23: Inter Variable
+Reference230: Noto Sans Gurmukhi
+Reference231: Noto Sans Hanifi Rohingya
+Reference232: Noto Sans Hanunoo
+Reference233: Noto Sans Hatran
+Reference234: Noto Sans Hebrew
+Reference235: Noto Sans ImpAramaic
+Reference236: Noto Sans Indic Siyaq Numbers
+Reference237: Noto Sans InsPahlavi
+Reference238: Noto Sans InsParthi
+Reference239: Noto Sans Javanese
+Reference24: AvantGarde LT
+Reference240: Noto Sans Kaithi
+Reference241: Noto Sans Kannada
+Reference242: Noto Sans Kayah Li
+Reference243: Noto Sans Kharoshthi
+Reference244: Noto Sans Khmer
+Reference245: Noto Sans Khojki
+Reference246: Noto Sans Khudawadi
+Reference247: Noto Sans Lao
+Reference248: Noto Sans Lepcha
+Reference249: Noto Sans Limbu
+Reference25: ITC Avant Garde Gothic Pro
+Reference250: Noto Sans Linear A
+Reference251: Noto Sans Linear B
+Reference252: Noto Sans Lisu
+Reference253: Noto Sans Lycian
+Reference254: Noto Sans Lydian
+Reference255: Noto Sans Mahajani
+Reference256: Noto Sans Malayalam
+Reference257: Noto Sans Mandaic
+Reference258: Noto Sans Manichaean
+Reference259: Noto Sans Marchen
+Reference26: Janda Cheerful Script
+Reference260: Noto Sans Masaram Gondi
+Reference261: Noto Sans Math
+Reference262: Noto Sans Mayan Numerals
+Reference263: Noto Sans Medefaidrin
+Reference264: Noto Sans MeeteiMayek
+Reference265: Noto Sans Mende Kikakui
+Reference266: Noto Sans Meroitic
+Reference267: Noto Sans Miao
+Reference268: Noto Sans Modi
+Reference269: Noto Sans Mongolian
+Reference27: Liberation Mono
+Reference270: Noto Sans Mro
+Reference271: Noto Sans Multani
+Reference272: Noto Sans Myanmar
+Reference273: Noto Sans Nabataean
+Reference274: Noto Sans Newa
+Reference275: Noto Sans NewTaiLue
+Reference276: Noto Sans NKo
+Reference277: Noto Sans Nushu
+Reference278: Noto Sans Ogham
+Reference279: Noto Sans Ol Chiki
+Reference28: Liberation Sans
+Reference280: Noto Sans Old Italic
+Reference281: Noto Sans Old Permic
+Reference282: Noto Sans Old Turkic
+Reference283: Noto Sans OldHung
+Reference284: Noto Sans OldNorArab
+Reference285: Noto Sans OldPersian
+Reference286: Noto Sans OldSogdian
+Reference287: Noto Sans OldSouArab
+Reference288: Noto Sans Oriya
+Reference289: Noto Sans Osage
+Reference29: Liberation Serif
+Reference290: Noto Sans Osmanya
+Reference291: Noto Sans Pahawh Hmong
+Reference292: Noto Sans Palmyrene
+Reference293: Noto Sans PauCinHau
+Reference294: Noto Sans PhagsPa
+Reference295: Noto Sans Phoenician
+Reference296: Noto Sans PsaPahlavi
+Reference297: Noto Sans Rejang
+Reference298: Noto Sans Runic
+Reference299: Noto Sans Samaritan
+Reference3: Carlito
+Reference30: Liquid Crystal
+Reference300: Noto Sans Saurashtra
+Reference301: Noto Sans Sharada
+Reference302: Noto Sans Shavian
+Reference303: Noto Sans Siddham
+Reference304: Noto Sans SignWrit
+Reference305: Noto Sans Sinhala
+Reference306: Noto Sans Sogdian
+Reference307: Noto Sans Sora Sompeng
+Reference308: Noto Sans Soyombo
+Reference309: Noto Sans Sundanese
+Reference31: Mac Dingbats
+Reference310: Noto Sans Syloti Nagri
+Reference311: Noto Sans Symbols
+Reference312: Noto Sans Symbols2
+Reference313: Noto Sans Syriac
+Reference314: Noto Sans Tagalog
+Reference315: Noto Sans Tagbanwa
+Reference316: Noto Sans Tai Le
+Reference317: Noto Sans Tai Tham
+Reference318: Noto Sans Tai Viet
+Reference319: Noto Sans Takri
+Reference32: Marlett
+Reference320: Noto Sans Tamil
+Reference321: Noto Sans Tamil Supplement
+Reference322: Noto Sans Telugu
+Reference323: Noto Sans Thaana
+Reference324: Noto Sans Thai
+Reference325: Noto Sans Tifinagh
+Reference326: Noto Sans Tifinagh Adrar
+Reference327: Noto Sans Tifinagh Agraw Imazig
+Reference328: Noto Sans Tifinagh Ahaggar
+Reference329: Noto Sans Tifinagh Air
+Reference33: monofur
+Reference330: Noto Sans Tifinagh APT
+Reference331: Noto Sans Tifinagh Azawagh
+Reference332: Noto Sans Tifinagh Ghat
+Reference333: Noto Sans Tifinagh Hawad
+Reference334: Noto Sans Tifinagh Rhissa Ixa
+Reference335: Noto Sans Tifinagh SIL
+Reference336: Noto Sans Tifinagh Tawellemmet
+Reference337: Noto Sans Tirhuta
+Reference338: Noto Sans Ugaritic
+Reference339: Noto Sans Vai
+Reference34: Noto Color Emoji
+Reference340: Noto Sans Wancho
+Reference341: Noto Sans WarangCiti
+Reference342: Noto Sans Yi
+Reference343: Noto Sans Zanabazar
+Reference344: Noto Serif
+Reference345: Noto Serif Ahom
+Reference346: Noto Serif Armenian
+Reference347: Noto Serif Balinese
+Reference348: Noto Serif Bengali
+Reference349: Noto Serif Devanagari
+Reference35: OldSansBlack
+Reference350: Noto Serif Display
+Reference351: Noto Serif Dogra
+Reference352: Noto Serif Ethiopic
+Reference353: Noto Serif Georgian
+Reference354: Noto Serif Grantha
+Reference355: Noto Serif Gujarati
+Reference356: Noto Serif Gurmukhi
+Reference357: Noto Serif Hebrew
+Reference358: Noto Serif Hmong Nyiakeng
+Reference359: Noto Serif Kannada
+Reference36: OpenSymbol
+Reference360: Noto Serif Khmer
+Reference361: Noto Serif Khojki
+Reference362: Noto Serif Lao
+Reference363: Noto Serif Malayalam
+Reference364: Noto Serif Myanmar
+Reference365: Noto Serif Sinhala
+Reference366: Noto Serif Tamil
+Reference367: Noto Serif Tangut
+Reference368: Noto Serif Telugu
+Reference369: Noto Serif Thai
+Reference37: PF Tempesta Five
+Reference370: Noto Serif Tibetan
+Reference371: Noto Serif Yezidi
+Reference372: Noto Traditional Nushu
+Reference373: NotoSerifTamilSlanted
+Reference374: P052
+Reference375: Palladio Uralic
+Reference376: PF Tempesta Five Condensed
+Reference377: Quicksand Bold
+Reference378: Quicksand Bold Oblique
+Reference379: Quicksand Book
+Reference38: Pie charts for maps
+Reference380: Quicksand Book Oblique
+Reference381: Quicksand Light
+Reference382: Quicksand Light Oblique
+Reference383: Roboto Mono Light
+Reference384: RobotoLight
+Reference385: Roman Uralic
+Reference386: rsfs10
+Reference387: Sans Condensed Uralic
+Reference388: Sans Uralic
+Reference389: Schoolbook Uralic
+Reference39: PizzaDude Bullets
+Reference390: Small Fonts
+Reference391: Source Code Pro Black
+Reference392: Source Code Pro ExtraLight
+Reference393: Source Code Pro Light
+Reference394: Source Code Pro Medium
+Reference395: Source Code Pro Semibold
+Reference396: Source Han Sans ExtraLight
+Reference397: Source Han Sans HC ExtraLight
+Reference398: Source Han Sans HC Heavy
+Reference399: Source Han Sans HC Light
+Reference4: DejaVu Sans
+Reference40: Poky
+Reference400: Source Han Sans HC Medium
+Reference401: Source Han Sans HC Normal
+Reference402: Source Han Sans Heavy
+Reference403: Source Han Sans K ExtraLight
+Reference404: Source Han Sans K Heavy
+Reference405: Source Han Sans K Light
+Reference406: Source Han Sans K Medium
+Reference407: Source Han Sans K Normal
+Reference408: Source Han Sans Light
+Reference409: Source Han Sans Medium
+Reference41: Pricedown
+Reference410: Source Han Sans Normal
+Reference411: Source Han Sans SC ExtraLight
+Reference412: Source Han Sans SC Heavy
+Reference413: Source Han Sans SC Light
+Reference414: Source Han Sans SC Medium
+Reference415: Source Han Sans SC Normal
+Reference416: Source Han Sans TC ExtraLight
+Reference417: Source Han Sans TC Heavy
+Reference418: Source Han Sans TC Light
+Reference419: Source Han Sans TC Medium
+Reference42: Quicksand
+Reference420: Source Han Sans TC Normal
+Reference421: Standard Symbols PS
+Reference422: stmary10
+Reference423: StyleBats
+Reference424: System
+Reference425: TeXGyreChorus
+Reference426: TeXGyreCursor
+Reference427: TeXGyreHeros
+Reference428: TeXGyreHerosCn
+Reference429: TeXGyreSchola
+Reference43: Quicksand Dash
+Reference430: TeXGyreTermes
+Reference431: Ubuntu-Title
+Reference432: URW Bookman
+Reference433: URW Gothic
+Reference434: VL Gothic
+Reference435: VL PGothic
+Reference436: wasy10
+Reference437: WenQuanYi Micro Hei
+Reference438: WenQuanYi Micro Hei Mono
+Reference439: Z003
+Reference44: Radio Space
+Reference45: Roboto
+Reference46: Roboto Mono
+Reference47: Rounded Elegance
+Reference48: Sansation
+Reference49: Segoe UI
+Reference5: DejaVu Sans Mono
+Reference50: Sesame
+Reference51: Source Code Pro
+Reference52: Source Han Sans
+Reference53: åπÉmäpÉSÉVÉbÉN
+Reference54: Source Han Sans K
+Reference55: ???
+Reference56: Source Han Sans SC
+Reference57: évåπ¸KëÃ
+Reference58: Source Han Sans TC
+Reference59: évåπ¸KÈì
+Reference6: DejaVu Serif
+Reference60: Source Han Sans HC
+Reference61: évåπ¸KÈì çÅç`
+Reference62: Source Han Sans HW
+Reference63: åπÉmäpÉSÉVÉbÉN HW
+Reference64: Source Han Sans HW K
+Reference65: ??? HW
+Reference66: Source Han Sans HW SC
+Reference67: évåπ¸KëÃ HW
+Reference68: Source Han Sans HW TC
+Reference69: évåπ¸KÈì HW
+Reference7: DejaVu Math TeX Gyre
+Reference70: Source Han Sans HW HC
+Reference71: évåπ¸KÈì çÅç` HW
+Reference72: StyleBats CleanCut
+Reference73: Symbol
+Reference74: Tahoma
+Reference75: Tall Films
+Reference76: TeX Gyre Adventor
+Reference77: TeX Gyre Bonum
+Reference78: TeX Gyre Chorus
+Reference79: TeX Gyre Cursor
+Reference8: Dinreg
+Reference80: TeX Gyre Heros
+Reference81: TeX Gyre Heros Cn
+Reference82: TeX Gyre Pagella
+Reference83: TeX Gyre Schola
+Reference84: TeX Gyre Termes
+Reference85: Ubuntu
+Reference86: Ubuntu-Title Title
+Reference87: Weather
+Reference88: Webdings
+Reference89: WIFI
+Reference9: Existence
+Reference90: Wingdings
+Reference91: Zekton
+Reference92: Batang
+Reference93: BatangChe
+Reference94: Dengxian
+Reference95: DFKai-SB
+Reference96: Dotum
+Reference97: DotumChe
+Reference98: FangSong
+Reference99: Gulim
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifySelfInfo
+Reference0: Prune et Pomelo
+Reference1: Prune
+Reference2: Pomelo
+Reference3: Master
+Reference4: Z:/home/alice/Documents/logiciels/ssp/ghost/Prune/shell/master/
+Reference5: CloverTerm
+Reference6: Z:/home/alice/Documents/logiciels/ssp/balloon/CloverTerm/
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyBalloonInfo
+Reference0: CloverTerm
+Reference1: Z:/home/alice/Documents/logiciels/ssp/balloon/CloverTerm/
+Reference2: 0:0,1,2,3 1:0,1,2,3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyShellInfo
+Reference0: Master
+Reference1: Z:/home/alice/Documents/logiciels/ssp/ghost/Prune/shell/master/
+Reference2: 0,1,2,3,4,5,6,7,10,1001,1002,1003,1004,1005,1006
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyUserInfo
+Reference0: alice
+Reference1: alice
+Reference2: 
+Reference3: undef
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+Load at 1745513980
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: otherghostname
+SecurityLevel: local
+Sender: SSP
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: configuredbiffname
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDisplayChangeEx
+Reference0: init
+Reference1: 0,0,1920,1080,32,1,bottom,1050
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDisplayChange
+Reference0: 32
+Reference1: 1920
+Reference2: 1080
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNetworkStatusChange
+Reference0: online
+Reference1: 0.0.0.0192.168.1.94
+Reference2: wifi
+Reference3: 0,000
+Reference4: 0,000
+Reference5: unrestricted
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTabletMode
+Reference0: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDarkTheme
+Reference0: 0
+Reference1: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnRecycleBinStatusUpdate
+Reference0: 0
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+Reference5: Prune
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: ghostpathlist
+Reference0: Z:\home\alice\Documents\logiciels\ssp\ghost\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: balloonpathlist
+Reference0: Z:\home\alice\Documents\logiciels\ssp\balloon\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: headlinepathlist
+Reference0: Z:\home\alice\Documents\logiciels\ssp\headline\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: pluginpathlist
+Reference0: Z:\home\alice\Documents\logiciels\ssp\plugin\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: calendarskinpathlist
+Reference0: Z:\home\alice\Documents\logiciels\ssp\calendar\skin\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: calendarpluginpathlist
+Reference0: Z:\home\alice\Documents\logiciels\ssp\calendar\plugin\
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSpeechSynthesisStatus
+Reference0: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnVoiceRecognitionStatus
+Reference0: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo63119699,833055install
+Reference1: Emily/Phase4.5EmilyTeddy120,166945install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDisplayHandover
+Reference0: init
+Reference1: 0
+Reference2: 
+Reference3: 0,0,1920,1080,32,1,bottom,1050
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnDisplayHandover
+Reference0: init
+Reference1: 1
+Reference2: 
+Reference3: 0,0,1920,1080,32,1,bottom,1050
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedsakuraname
+Reference0: Emily
+Reference1: Prune
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedkeroname
+Reference0: Teddy
+Reference1: Pomelo
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedghostname
+Reference0: Emily/Phase4.5
+Reference1: Prune et Pomelo
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedballoonname
+Reference0: Balloon for Emily/P4
+Reference1: CloverTerm
+Reference2: SSPÉfÉtÉHÉãÉg+
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedheadlinename
+Reference0: GAME Watch
+Reference1: Google ÉjÉÖÅ[ÉX ì˙ñ{åÍî≈
+Reference2: ITMedia News
+Reference3: PC Watch
+Reference4: ÉXÉâÉh
+Reference5: ÇÀÇ∆ÇÁÇ⁄
+Reference6: âÒé˚ÅEñ≥èûèCóùìôÇÃÇ®ímÇÁÇπ
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedplugin
+Reference0: SwissArmyKnife8F8BCFB8-B27A-456f-9BA0-551484856DDC
+Reference1: ã§óLïœêîÉvÉâÉOÉCÉìABED14AF-F34B-4ff2-95B7-30ED37D5802D
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedshellname
+Reference0: Master
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: uniqueid
+Reference0: ssp_fmo_header_000000c8_000300dc
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: hwnd
+Reference0: 196828196816
+Reference1: 196814196830
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: installedshellname
+Reference0: Master
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNotifyDressupInfo
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnScheduleTodayNotify
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+BaseID: OnBoot
+Charset: Shift_JIS
+ID: OnGhostChanged
+Reference0: Prune
+Reference1: \1\s[10]\0\s[0]oulaa... \w8j'espere que je fonctionne bien...
+Reference2: Prune et Pomelo
+Reference3: Z:/home/alice/Documents/logiciels/ssp/ghost/Prune/
+Reference7: Master
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \1\s[10]\0\s[0]...c'est mieux ?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: otherghostname
+SecurityLevel: local
+Sender: SSP
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \1\s[10]\0\s[0]...c'est mieux ?
+Reference1: 
+Reference2: OnGhostChanged
+Reference3: Prune\1\s[10]\0\s[0]oulaa... \w8j'espere que je fonctionne bien...Prune et PomeloZ:/home/alice/Documents/logiciels/ssp/ghost/Prune/Master
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \1\s[10]\0\s[0]...c'est mieux ?
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64119699,833055boot
+Reference1: Emily/Phase4.5EmilyTeddy120,166945install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: -1
+Reference1: 10
+Reference2: 1,10,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOffscreen
+Reference0: Prune/0
+Reference1: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOffscreen
+Reference0: 0
+Reference1: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \t\*\b2\0\s[0]Je peux faire quelque-chose pour toi ?\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 18:59\f[italic,default]
+Reference1: 
+Reference2: OnMouseDoubleClick
+Reference3: 30019800chemise0mouse
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \t\*\b2\0\s[0]Je peux faire quelque-chose pour toi ?\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 18:59\f[italic,default]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]avec plaisir, voici ur arms are the shortest path to peace i know pls tell me if I ever abuse it \![sound,play,3.mp3]\0\s[7]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[3]avec plaisir, voici ur arms are the shortest path to peace i know pls tell me if I ever abuse it \![sound,play,3.mp3]\0\s[7]
+Reference1: 
+Reference2: OnNeve
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,choosing,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]avec plaisir, voici ur arms are the shortest path to peace i know pls tell me if I ever abuse it \![sound,play,3.mp3]\0\s[7]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 3
+Reference1: 10
+Reference2: 0,3,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 7
+Reference1: 10
+Reference2: 0,7,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnHourTimeSignal
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 1
+Reference4: 12
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value:  \0\s[0]il est %hour:00!
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]il est 19:00!
+Reference1: 
+Reference2: OnHourTimeSignal
+Reference3: 3110112
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[0]il est 19:00!
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 13
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64119799,833194boot
+Reference1: Emily/Phase4.5EmilyTeddy120,166806install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![sound,stop]\0\s[0]
+Reference1: 
+Reference2: OnMouseDoubleClick
+Reference3: 35647501stop0mouse
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \![sound,stop]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \t\*\b2\0\s[0]dis-moi !\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 19:00\f[italic,default]
+Reference1: 
+Reference2: OnMouseDoubleClick
+Reference3: 26023900chemise0mouse
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \t\*\b2\0\s[0]dis-moi !\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 19:00\f[italic,default]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Quitter le menu
+Reference1: OnQuit
+Reference2: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Quitter le menu
+Reference1: OnQuit
+Reference2: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]avec plaisir, voici WETTEST MOP CHAMPIONSHIP \![sound,play,4.mp3]\0\s[7]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[3]avec plaisir, voici WETTEST MOP CHAMPIONSHIP \![sound,play,4.mp3]\0\s[7]
+Reference1: 
+Reference2: OnNeve
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,choosing,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]avec plaisir, voici WETTEST MOP CHAMPIONSHIP \![sound,play,4.mp3]\0\s[7]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 3
+Reference1: 10
+Reference2: 0,3,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 1
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 7
+Reference1: 10
+Reference2: 0,7,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOverlap
+Reference0: Prune/0-Prune/1
+Reference1: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOffscreen
+Reference0: 
+Reference1: Prune/0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOverlap
+Reference0: 0-1
+Reference1: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOffscreen
+Reference0: 
+Reference1: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[2]\f[color,orange]Melon\f[color,default] est le seul qui sait prendre le temps de m\'ecouter, je ne suis pas sure qu\'il comprene tout, mais si c\'est important pour moi, alors ca l\'interesse
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310111
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[2]\f[color,orange]Melon\f[color,default] est le seul qui sait prendre le temps de m\'ecouter, je ne suis pas sure qu\'il comprene tout, mais si c\'est important pour moi, alors ca l\'interesse
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 2
+Reference1: 10
+Reference2: 0,2,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 1
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOverlap
+Reference0: 
+Reference1: Prune/0-Prune/1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOverlap
+Reference0: 
+Reference1: 0-1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 6
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 7
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 8
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 9
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \t\*\b2\0\s[0]Je peux faire quelque-chose pour toi ?\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Repete ?,OnLastTalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 19:00\f[italic,default]
+Reference1: 
+Reference2: OnMouseDoubleClick
+Reference3: 25722500chemise0mouse
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \t\*\b2\0\s[0]Je peux faire quelque-chose pour toi ?\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Repete ?,OnLastTalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 19:00\f[italic,default]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Quitter le menu
+Reference1: OnQuit
+Reference2: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Quitter le menu
+Reference1: OnQuit
+Reference2: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceHover
+Reference0: Quitter le menu
+Reference1: OnQuit
+Reference2: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnMinuteChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnQuit
+Reference0: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \![close,inputbox,__SYSTEM_ALL_INPUT__]\0\s[0]Pas de soucis !
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![close,inputbox,__SYSTEM_ALL_INPUT__]\0\s[0]Pas de soucis !
+Reference1: 
+Reference2: OnQuit
+Reference3: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,choosing,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \![close,inputbox,__SYSTEM_ALL_INPUT__]\0\s[0]Pas de soucis !
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+BaseID: OnBatteryNotify
+Charset: Shift_JIS
+ID: OnBatteryChargingStop
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64119899,833333boot
+Reference1: Emily/Phase4.5EmilyTeddy120,166667install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonClose
+Reference0: \![close,inputbox,__SYSTEM_ALL_INPUT__]\0\s[0]Pas de soucis !
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[3]\ Zaki m\'a cuisine un tacos , ca m\'a remonte le moral \1\s[10]ca n\'allait pas ? \0\s[2]\n\n\j\'avais un petit coup de mou mais maintenant ca va mieux 
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310011
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+<unknown> 1: error: unexpected EOL in quoted string.
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]\ Zaki m\'a cuisine un tacos , ca m\'a remonte le moral \1\s[10]ca n\'allait pas ? \0\s[2]\n\n\j\'avais un petit coup de mou mais maintenant ca va mieux 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 3
+Reference1: 10
+Reference2: 0,3,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 2
+Reference1: 10
+Reference2: 0,2,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \0\s[3]\ Zaki m\'a cuisine un tacos , ca m\'a remonte le moral \1\s[10]ca n\'allait pas ? \0\s[2]\n\n\j\'avais un petit coup de mou mais maintenant ca va mieux 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \1\s[10]tu vas faire quoi aujourd'hui ?\n\n[half]\0\s[2]comme hier ! jouer a magic \1\s[10]\n\nEncore??\w[4000]\0\s[0]
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310013
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \1\s[10]tu vas faire quoi aujourd'hui ?\n\n[half]\0\s[2]comme hier ! jouer a magic \1\s[10]\n\nEncore??\w[4000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSoundStop
+Reference0: 4.mp3
+Reference1: end
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+BaseID: OnBatteryNotify
+Charset: Shift_JIS
+ID: OnBatteryChargingStart
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64119999,833472boot
+Reference1: Emily/Phase4.5EmilyTeddy120,166528install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+BaseID: OnProcessBreak
+Charset: Shift_JIS
+ID: OnBalloonBreak
+Reference0: \1\s[10]tu vas faire quoi aujourd'hui ?\n\n[half]\0\s[2]comme hier ! jouer a magic \1\s[10]\n\nEncore??\w[4000]\0\s[0]
+Reference1: 0
+Reference2: 111
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \t\*\b2\0\s[0]dis-moi !\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Repete ?,OnLastTalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 19:02\f[italic,default]
+Reference1: 
+Reference2: OnMouseDoubleClick
+Reference3: 29923500chemise0mouse
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \t\*\b2\0\s[0]dis-moi !\w4\_q\![set,autoscroll,disable]\n\n[half]\![*]\q[Dis quelque-chose !,OnAITalk]\n\n[half]\![*]\q[Repete ?,OnLastTalk]\n\n[half]\![*]\q[Chante moi une chanson !,OnNeve]\n\n[half]\n\n[half]\![*]\q[Quitter le menu,OnQuit,0]\n\n\f[italic,true]Parle toute les: 30 seconds\n\f[italic,default]\![*]\q[30s,OnAssignTalkRate,30] \![*]\q[1m,OnAssignTalkRate,60] \![*]\q[3m,OnAssignTalkRate,180]\![*]\q[5m,OnAssignTalkRate,300] \![*]\q[10m,OnAssignTalkRate,600] \![*]\q[15m,OnAssignTalkRate,900] \![*]\q[Never,OnAssignTalkRate,Never]\n\n[half]\f[italic,true]Jeudi, 24/4, 19:02\f[italic,default]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: 15m
+Reference1: OnAssignTalkRate
+Reference2: 900
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: 15m
+Reference1: OnAssignTalkRate
+Reference2: 900
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceHover
+Reference0: Chante moi une chanson !
+Reference1: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnChoiceEnter
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNeve
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: choosing,timecritical,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]avec plaisir, voici 4446 7777666 7777666777777999 333666777 339944477778444664 \![sound,play,5.mp3]\0\s[7]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[3]avec plaisir, voici 4446 7777666 7777666777777999 333666777 339944477778444664 \![sound,play,5.mp3]\0\s[7]
+Reference1: 
+Reference2: OnNeve
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,choosing,balloon(0=2)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]avec plaisir, voici 4446 7777666 7777666777777999 333666777 339944477778444664 \![sound,play,5.mp3]\0\s[7]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 3
+Reference1: 10
+Reference2: 0,3,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 7
+Reference1: 10
+Reference2: 0,7,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOverlap
+Reference0: Prune/0-Prune/1
+Reference1: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOverlap
+Reference0: 0-1
+Reference1: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \0\s[3]avec plaisir, voici 4446 7777666 7777666777777999 333666777 339944477778444664 \![sound,play,5.mp3]\0\s[7]
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[3]c\'est ma mere qui m\'a offert ce gros trefle \1\s[10]la chance...
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3101122
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]c\'est ma mere qui m\'a offert ce gros trefle \1\s[10]la chance...
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 3
+Reference1: 10
+Reference2: 0,3,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 1
+Reference3: 0
+Reference4: 23
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOtherOverlap
+Reference0: 
+Reference1: Prune/0-Prune/1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnOverlap
+Reference0: 
+Reference1: 0-1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 24
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 25
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonClose
+Reference0: \0\s[3]c\'est ma mere qui m\'a offert ce gros trefle \1\s[10]la chance...
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120099,833611boot
+Reference1: Emily/Phase4.5EmilyTeddy120,166389install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]j\'ai croise Zaki au magasin de manga j\'aurais aime que l'on puisse ecouter 'Claire Is Still Alive And Well' de Technically Not A Bird mais il etait deja tard... 
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310010
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[0]j\'ai croise Zaki au magasin de manga j\'aurais aime que l'on puisse ecouter 'Claire Is Still Alive And Well' de Technically Not A Bird mais il etait deja tard... 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonClose
+Reference0: \0\s[0]j\'ai croise Zaki au magasin de manga j\'aurais aime que l'on puisse ecouter 'Claire Is Still Alive And Well' de Technically Not A Bird mais il etait deja tard... 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[2]si j\'avais un psy je lui parlerais surement de mon amour pour yuri online 
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3100113
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[2]si j\'avais un psy je lui parlerais surement de mon amour pour yuri online 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 2
+Reference1: 10
+Reference2: 0,2,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 14
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 15
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 16
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120199,833749boot
+Reference1: Emily/Phase4.5EmilyTeddy120,166251install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \0\s[2]si j\'avais un psy je lui parlerais surement de mon amour pour yuri online 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnFileDropping
+Reference0: Z:\home\alice\Documents\logiciels\ssp\ghost\Prune\
+Reference1: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnFileDropping
+Reference0: Z:\home\alice\Documents\logiciels\ssp\ghost\Prune\
+Reference1: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnUpdatedataCreating
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: Creating network update file...
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: Creating network update file...
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnUpdatedataCreated
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: Network update file created.
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: Network update file created.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonClose
+Reference0: Network update file created.
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]j\'ai lu une etude qui dis que moins t\'es appretee pour aller a la laverie plus t\'as de chances de tomber sur une jolie fille qui tricote assise sur le rebord de la fenetre \1\s[10]je doute qu\'une telle etude existe
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310014
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[0]j\'ai lu une etude qui dis que moins t\'es appretee pour aller a la laverie plus t\'as de chances de tomber sur une jolie fille qui tricote assise sur le rebord de la fenetre \1\s[10]je doute qu\'une telle etude existe
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 6
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 7
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 8
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 9
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 10
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 11
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 12
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 13
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 14
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnFileDropping
+Reference0: Z:\home\alice\Documents\logiciels\ssp\ghost\Prune\
+Reference1: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnFileDropping
+Reference0: Z:\home\alice\Documents\logiciels\ssp\ghost\Prune\
+Reference1: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNarCreating
+Reference0: Prune & Pomelo
+Reference1: C:/users/alice/Documents/Prune.nar
+Reference2: ghost
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: Creating NAR...
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: Creating NAR...
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \![sound,stop]\0\s[0]
+Reference1: 
+Reference2: OnMouseDoubleClick
+Reference3: 35048001stop0mouse
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \![sound,stop]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnNarCreated
+Reference0: Prune & Pomelo
+Reference1: C:/users/alice/Documents/Prune.nar
+Reference2: ghost
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: NAR Created.
+Reference1: 
+Reference2: 
+Reference3: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: NAR Created.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120299,833887boot
+Reference1: Emily/Phase4.5EmilyTeddy120,166113install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \1\s[10]tu ne mets jamais de points a la fin de tes phrases ? \0\s[3]j\'aime pas ca... pourquoi mettre un point quand on peu mettre un coeur ? <3 \w[4000]\0\s[0]
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310019
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \1\s[10]tu ne mets jamais de points a la fin de tes phrases ? \0\s[3]j\'aime pas ca... pourquoi mettre un point quand on peu mettre un coeur ? <3 \w[4000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 10
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 3
+Reference1: 10
+Reference2: 0,3,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 6
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 7
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \1\s[10]tu ne mets jamais de points a la fin de tes phrases ? \0\s[3]j\'aime pas ca... pourquoi mettre un point quand on peu mettre un coeur ? <3 \w[4000]\0\s[0]
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[2]je me dis souvent que les filles avec des moustaches c'est une raison suffisante pour rester en vie
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310013
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[2]je me dis souvent que les filles avec des moustaches c'est une raison suffisante pour rester en vie
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 2
+Reference1: 10
+Reference2: 0,2,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnMinuteChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120399,834025boot
+Reference1: Emily/Phase4.5EmilyTeddy120,165975install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \0\s[2]je me dis souvent que les filles avec des moustaches c'est une raison suffisante pour rester en vie
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \1\s[10]tu savais que tu pouvais drag n drop une musique sur moi ? tu peu double cliquer sur mon oreille gauche pour faire play, et mon oreille droite pour arreter le son
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3100128
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \1\s[10]tu savais que tu pouvais drag n drop une musique sur moi ? tu peu double cliquer sur mon oreille gauche pour faire play, et mon oreille droite pour arreter le son
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 29
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 30
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 31
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 32
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 33
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 34
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 35
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 36
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \1\s[10]tu savais que tu pouvais drag n drop une musique sur moi ? tu peu double cliquer sur mon oreille gauche pour faire play, et mon oreille droite pour arreter le son
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120499,834163boot
+Reference1: Emily/Phase4.5EmilyTeddy120,165837install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]j\'ai croise Coco a la salle d\'arcade j\'aurais aime que l'on puisse boire un cafe en terrasse mais on a du reporter... 
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3100166
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[0]j\'ai croise Coco a la salle d\'arcade j\'aurais aime que l'on puisse boire un cafe en terrasse mais on a du reporter... 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 5
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnKeyPress
+Reference0: numlock
+Reference1: 144
+Reference2: 1
+Reference3: 1
+Reference4: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnKeyPress
+Reference0: delete
+Reference1: 46
+Reference2: 1
+Reference3: 1
+Reference4: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnKeyPress
+Reference0: delete
+Reference1: 46
+Reference2: 1
+Reference3: 1
+Reference4: 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \0\s[0]j\'ai croise Coco a la salle d\'arcade j\'aurais aime que l'on puisse boire un cafe en terrasse mais on a du reporter... 
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \1\s[10]j'ai entendu dire que Maxine avait prevu de passer sa journee a essayer d'apprendre a coder\0\s[5]S...sans moi ?? \1\s[10]\n\n[half]mais...\w[500]Prune...\w[4000]\0\s[0]
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3100117
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \1\s[10]j'ai entendu dire que Maxine avait prevu de passer sa journee a essayer d'apprendre a coder\0\s[5]S...sans moi ?? \1\s[10]\n\n[half]mais...\w[500]Prune...\w[4000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 18
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 5
+Reference1: 10
+Reference2: 0,5,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 3
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 4
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonClose
+Reference0: \1\s[10]j'ai entendu dire que Maxine avait prevu de passer sa journee a essayer d'apprendre a coder\0\s[5]S...sans moi ?? \1\s[10]\n\n[half]mais...\w[500]Prune...\w[4000]\0\s[0]
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120599,834300boot
+Reference1: Emily/Phase4.5EmilyTeddy120,165700install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[3]\ Ambre m\'a invite a manger un tacos , ca me rend tellement heureuse... 
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3100119
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]\ Ambre m\'a invite a manger un tacos , ca me rend tellement heureuse... 
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 3
+Reference1: 10
+Reference2: 0,3,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+BaseID: OnProcessBreak
+Charset: Shift_JIS
+ID: OnBalloonBreak
+Reference0: \0\s[3]\ Ambre m\'a invite a manger un tacos , ca me rend tellement heureuse... 
+Reference1: 0
+Reference2: 80
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[3]j'adore quand une jolie fille me dis un truc gentil
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310019
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[3]j'adore quand une jolie fille me dis un truc gentil
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 10
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 11
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120699,834437boot
+Reference1: Emily/Phase4.5EmilyTeddy120,165563install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \0\s[3]j'adore quand une jolie fille me dis un truc gentil
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]Tetris est vraiment mon jeux prefere...\n\n\1\s[10]tu oublies Taco Attack.\0\s[1]oui bon...\w[4000]\0\s[0]
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3100141
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[0]Tetris est vraiment mon jeux prefere...\n\n\1\s[10]tu oublies Taco Attack.\0\s[1]oui bon...\w[4000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 42
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 1
+Reference1: 10
+Reference2: 0,1,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 1
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 2
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonClose
+Reference0: \0\s[0]Tetris est vraiment mon jeux prefere...\n\n\1\s[10]tu oublies Taco Attack.\0\s[1]oui bon...\w[4000]\0\s[0]
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120799,834574boot
+Reference1: Emily/Phase4.5EmilyTeddy120,165426install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[0]Persona est vraiment mon jeux prefere...\n\n\1\s[10]tu as dis que c\'etait Melty Blood\npas plus tard qu'hier...\0\s[1]oui bon...\w[4000]\0\s[0]
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 3100121
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[0]Persona est vraiment mon jeux prefere...\n\n\1\s[10]tu as dis que c\'etait Melty Blood\npas plus tard qu'hier...\0\s[1]oui bon...\w[4000]\0\s[0]
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 22
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 23
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 24
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 25
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 26
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 1
+Reference1: 10
+Reference2: 0,1,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 27
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 0
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 0
+Reference1: 10
+Reference2: 0,0,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnMemoryLoadHigh
+Reference0: 80
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0/1=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonClose
+Reference0: \0\s[0]Persona est vraiment mon jeux prefere...\n\n\1\s[10]tu as dis que c\'etait Melty Blood\npas plus tard qu'hier...\0\s[1]oui bon...\w[4000]\0\s[0]
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnTranslate
+Reference0: \0\s[2]je repense souvent a comment \f[color,yellow]Olive\f[color,default] me regardais. etait-ce sincere ou pas je ne prefere pas y penser. il y a des souvenir qu\'il vaut mieux cherir.
+Reference1: 
+Reference2: OnSecondChange
+Reference3: 310019
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking
+
+<unknown> 1: error: unexpected EOL in quoted string.
+--------------------- RESPONSE
+SHIORI/3.0 200 OK
+Charset: Shift_JIS
+Sender: Prune
+Value: \0\s[2]je repense souvent a comment \f[color,yellow]Olive\f[color,default] me regardais. etait-ce sincere ou pas je ne prefere pas y penser. il y a des souvenir qu\'il vaut mieux cherir.
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSurfaceChange
+Reference0: 2
+Reference1: 10
+Reference2: 0,2,550,550
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 10
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 11
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 12
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 13
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 14
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 15
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: OnSecondChange
+Reference0: 31
+Reference1: 0
+Reference2: 0
+Reference3: 0
+Reference4: 16
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: talking,balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBatteryNotify
+Reference0: 100
+Reference1: -1
+Reference2: online
+Reference3: high,charging
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+NOTIFY SHIORI/3.0
+Charset: Shift_JIS
+ID: rateofusegraph
+Reference0: Prune et PomeloPrunePomelo64120899,834711boot
+Reference1: Emily/Phase4.5EmilyTeddy120,165289install
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
+[SHIORI/SAORI Adapter] Query sequence begin.
+---------------------- REQUEST
+GET SHIORI/3.0
+Charset: Shift_JIS
+ID: OnBalloonTimeout
+Reference0: \0\s[2]je repense souvent a comment \f[color,yellow]Olive\f[color,default] me regardais. etait-ce sincere ou pas je ne prefere pas y penser. il y a des souvenir qu\'il vaut mieux cherir.
+SecurityLevel: local
+SecurityOrigin: null
+Sender: SSP
+SenderType: internal
+Status: balloon(0=0)
+
+--------------------- RESPONSE
+SHIORI/3.0 204 No Content
+Charset: Shift_JIS
+Sender: Prune
+
+[SHIORI/SAORI Adapter] Query sequence end.
