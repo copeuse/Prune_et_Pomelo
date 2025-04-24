@@ -29,13 +29,13 @@ malheuresement : "mais l\'idee n'avais pas l\'air de lui plaire...", "mais on a 
 
 random : "\0\s[5]\w[2000]\1\s[10]mais Prune pourquoi tu pleures ? \0\s[2]je pense a toute les musiques que je n'ai jamais ecoutee... \1\s[10]\n\nne t'inquiete pas d'autre le font pour toi !", "\0\s[2]j\'adorerais avoir une cheminee...", "\0\s[0]je crois que j\'ai rencontree mon ame-soeur \1\s[10]c\'est quoi son nom ?\0\s[2]\n\nje ne sais pas je connais que son pseudo soulseek\1\s[10]\n\nmais prune...", "\0\s[3]c\'est ma mere qui m\'a offert ce gros trefle \1\s[10]la chance...", "\0\s[0]j\'ai lu une etude qui dis que moins t\'es appretee pour aller a la laverie plus t\'as de chances de tomber sur une jolie fille qui tricote assise sur le rebord de la fenetre \1\s[10]je doute qu\'une telle etude existe", "\0\s[3]j'adore quand une jolie fille me dis un truc gentil"
 
-rav : "\0\s[1]ca n\'a rien a voir...\w[4000]\0\s[0]", "\0\s[1]c\'est different...\w[4000]\0\s[0]", "\0\s[1]oui bon...\w[4000]\0\s[0]", "\0\s[4]Comment j\'ai pu oublier...\w[4000]\0\s[0]"
+rav : "\0\s[1]ca n\'a rien a voir...", "\0\s[1]c\'est different...", "\0\s[1]oui bon...", "\0\s[4]Comment j\'ai pu oublier..."
 
 routine : "\1\s[10]\n\nDecidement...", "\1\s[10]\n\nPour changer...", "\1\s[10]\n\nAmuse toi bien !", "\1\s[10]\n\nEncore??", "\1\s[10]\n\nTu fais bien","\1\s[10]\n\nBonne idee"
 
-journee : "\0\s[2]"${faire}" "${activite}" "${routine}"\w[4000]\0\s[0]", "\0\s[3]je vais rejoindre "${gensCool}" on va "${activite}" "\1\s[10]\n\namusez-vous bien <3\0\s[3]\w[4000]\0\s[0]"
+journee : "\0\s[2]"${faire}" "${activite}" "${routine}" ", "\0\s[3]je vais rejoindre "${gensCool}" on va "${activite}" "\1\s[10]\n\namusez-vous bien <3"
 
-info : "\1\s[10]tu savais que tu pouvais drag n drop une musique sur moi ? tu peu double cliquer sur mon oreille gauche pour faire play, et mon oreille droite pour arreter le son", "\0\s[2]j\'utilise pas d'accent j\'ai peur de corrompre quelques chose quand je parle \1\s[10]ca t\'arrange bien vu le nombre de fautes que tu fais par phrase... \w[500]\0\s[5]\n\nje suis dyslexique...\w[4000]\0\s[0]", "\1\s[10]tu ne mets jamais de points a la fin de tes phrases ? \0\s[3]j\'aime pas ca... pourquoi mettre un point quand on peu mettre un coeur ? <3 \w[4000]\0\s[0]"
+info : "\1\s[10]tu savais que tu pouvais drag n drop une musique sur moi ? tu peu double cliquer sur mon oreille gauche pour faire play, et mon oreille droite pour arreter le son", "\0\s[2]j\'utilise pas d'accent j\'ai peur de corrompre quelques chose quand je parle \1\s[10]ca t\'arrange bien vu le nombre de fautes que tu fais par phrase... \w[500]\0\s[5]\n\nje suis dyslexique...", "\1\s[10]tu ne mets jamais de points a la fin de tes phrases ? \0\s[3]j\'aime pas ca... pourquoi mettre un point quand on peu mettre un coeur ? <3"
 
 plat : "du riz cantonnais", "un tacos", "une soupe a l'oignon", "une soupe de cresson", "une quiche"
 
@@ -64,7 +64,7 @@ friend : (
 
 friend : (
 	"\1\s[10]j'ai entendu dire que "${gensCool}" avait prevu de passer sa journee a "${activite}"
-	${reaction_rumeur}\w[4000]\0\s[0]
+	${reaction_rumeur}
 )
 
 friend : (

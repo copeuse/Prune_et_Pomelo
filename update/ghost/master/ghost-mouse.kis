@@ -9,9 +9,9 @@ MouseDoubleClick0trefle : "\0\s[3]Bonne chance <3"
 
 strokeLimit : 50
 
-MouseMove0Head : "\0\s[4]OH wow...\w[3000]\0\s[0]"
-MouseMove0Head : "\0\s[3]oh...\w[3000]\0\s[0]"
-MouseMove0Head : "\0\s[4]Je...\w[1000]\0\s[3]ok...\w[3000]\0\s[0]"
+MouseMove0Head : "\0\s[4]OH wow..."
+MouseMove0Head : "\0\s[3]oh..."
+MouseMove0Head : "\0\s[4]Je...\w[1000]\0\s[3]ok..."
 
 MouseMove1body : "\1\s[10]ktktktktktktktkt"
 
