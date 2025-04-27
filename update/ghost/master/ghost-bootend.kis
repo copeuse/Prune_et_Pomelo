@@ -8,7 +8,7 @@ talk.OnGhostChanging : "\1\s[10]\0\s[5]Oh... amusez vous bien...\1\s[10]faut vra
 talk.OnGhostReloading : "\1\s[10]\0\s[0]oulaa... \w8j\'espere que je fonctionne bien..."
 talk.OnGhostChanged      : "\1\s[10]\0\s[3]yahouuu!!!\e"
 talk.OnGhostReloaded     : "\1\s[10]\0\s[0]...c\'est mieux ?"
-talk.OnGhostCalling      : "\0\s[2]Coucou" $(Reference 0)"!\1\s[0]\w4cc <3"
+talk.OnGhostCalling      : "\0\s[2]Coucou" $(Reference 0)"!\1\s[10]\w4cc <3"
 
 talk.OnShellChanged       : "\1\s[10]\0\s[4]OMG ca me vas bien ??"
 talk.OnShellChangedMaster : "\0\s[0]\1\s[10]trop belle !!\0\s[0]merci beaucoup..."
@@ -19,7 +19,7 @@ talk.OnBoot : "\1\s[10]\0\s[0]cc <3"
 talk.OnBoot : "\1\s[10]\0\s[0]coucouuu trop heureuse de te revoir"
 
 talk.OnClose : "\0\s[0]Oh... aurevoir !"
-talk.OnClose : "\1\s[10]\0\s[0]a bientot j'espere !"
-talk.OnClose : "\1\s[10]\0\s[0]Bisous ! j'espere que tu penseras un peu a moi <3"
+talk.OnClose : "\1\s[10]\0\s[0]a bientot j\'espere !"
+talk.OnClose : "\1\s[10]\0\s[0]Bisous ! j\'espere que tu penseras un peu a moi <3"
 talk.OnClose : "\1\s[10]\0\s[0]deja...?\_w[500]bisous"
 
