@@ -1,0 +1,106 @@
+
+jvCool : "Persona", "Tetris", "Terraria", "Guilty Gear", "Minecraft", "Kid Icarus Uprising", "Super Monkey Ball", "Rayman", "Balatro", "Dead Cells", "Melty Blood", "Taco Attack"
+
+animeCool : "Elfen Lied", "School Days", "Chobits", "Nana", "Puella Magi Madoka Magica"
+
+activite : "jouer a magic", "faire de la musique", "essayer d'apprendre a coder", "faire du velo", "faire du skate ! \1\s[10]tu sais faire ca toi ?\0\s[5]\n\n...pas vraiment... mais j\'adore...\w[1000]\0\s[0]\n\n[half]", "jouer a "${jvCool}"", "regarder "${animeCool}"", "ecouter "${album}"", "boire un cafe en terrasse"
+
+faire : "je vais surement", "hmmmm..., je pense que je vais", "peut-etre", "comme hier !"
+
+album : "'Boku Mo Wakaran' de Bogdan Raczynski", "'Pay 2 W!N' de thanks god", "'Mecano' du groupe du meme nom, Mecano", "'Claire Is Still Alive And Well' de Technically Not A Bird", "'A Dog's Chance' de Polo Perks", "'SHADOW FUNCTION+' de ghostwerk", "'Some Rap Songs' de Earl Sweatshirt", "'Thinking of You' de Bogdan Raczynski", "'Disco!' de Mike", "'Quinn' de l'artiste du meme nom, Quinn", "'Duwap So Based' de Duwap Kaine", "'.data2' de P1NKF1RE", "'Miami Carol City Legend' de SpaceGhostPurrp", "'Tender Buttons' du groupe Broadcast", "'Floral Green' du groupe Title Fight", "'Stratosphere' de Duster", "'Victory Music' de RealYungPhil", "'Gluee' de Bladee", "'kenopsia' de quannnic", "'Syro' par Aphex Twin", "'Sex Dreams and Denim Jeans' de Uffie", "'Music Has the Right to Children' de Boards of Canada", "'Traditional Synthesize Music' de Venetian Snares", "'Deftones' du goupe du meme nom, Deftones", "'FearDorian' de l'artiste du meme nom, Feardorian", "'Compro' de l'artiste Skee Mask", "'Xrns Trax' de Binary Digit", "'991003034m9' de wiljahelmaz", "'E2-E4' de Manuel Gottsching", "'Fantastic Planet' de Lealani", "'Foreign Exchange' de Rx Papi et Gud", "'Soleil d'hiver' de Georgio","'Cross' de Justice", "'Discovery' des Daft Punk", "'In Love and Death' de The Used", "'The Devil-Faces of My Old Friends, Beneath Me' de Heccra"
+
+dubitatif_jv : "\1\s[10]tu as dis que c\'etait "${jvCool}"\npas plus tard qu'hier...", "\1\s[10]et moi qui pensais que c\'etait "${jvCool}"...", "\1\s[10]tu oublies "${jvCool}".","\1\s[10]et "${jvCool}" dans tout ca ?"
+
+dubitatif_album : "\1\s[10]tu as dis que c\'etait "${album}"\npas plus tard qu'hier...", "\1\s[10]et moi qui pensais que c\'etait "${album}"...", "\1\s[10]tu oublies "${album}".","\1\s[10]et "${album}" dans tout ca ?"
+
+metier_cool : "dj", "rockstar", "rappeuse", "cowgirl", "skateuse", "programeuse"
+
+truc_cool : "le plastique", "les poussins", "les trains", "foobar2000", "Grenoble", "Sophie Calle", "les robes a poches", "yuri online", "les filles avec des moustaches"
+
+jaime : "\0\s[2]si j\'avais un psy je lui parlerais surement de mon amour pour "${truc_cool}" ", "\0\s[2]je me dis souvent que "${truc_cool}" c'est une raison suffisante pour rester en vie"
+
+gensCool : "Louisae", "Bart", "Gee", "Zaki", "Coco", "Jade", "Ambre", "Maxine", "Louxy"
+
+reaction_rumeur : "\0\s[3] wow... on a tellement de point commun c'est fou", "\0\s[1]Et on ne me previens meme pas ? je vois..." "\1\s[10]\n\n[half]tu abuses.","\0\s[5]S...sans moi ??" "\1\s[10]\n\n[half]mais...\w[500]Prune..."
+
+lieuCool : "au DrakArt", "a la Bobine", "a la salle d\'arcade", "a la place Championnet", "au magasin de manga", "au skatepark", "au Quick", "au Tacos", "dans le metro", "dans le tram", "au bar"
+
+malheuresement : "mais l\'idee n'avais pas l\'air de lui plaire...", "mais on a du reporter...", "mais il etait deja tard..."
+
+random : "\0\s[5]\w[2000]\1\s[10]mais Prune pourquoi tu pleures ? \0\s[2]je pense a toute les musiques que je n'ai jamais ecoutee... \1\s[10]\n\nne t'inquiete pas d'autre le font pour toi !", "\0\s[2]j\'adorerais avoir une cheminee...", "\0\s[0]je crois que j\'ai rencontree mon ame-soeur \1\s[10]c\'est quoi son nom ?\0\s[2]\n\nje ne sais pas je connais que son pseudo soulseek\1\s[10]\n\nmais prune...", "\0\s[3]c\'est ma mere qui m\'a offert ce gros trefle \1\s[10]la chance...", "\0\s[0]j\'ai lu une etude qui dis que moins t\'es appretee pour aller a la laverie plus t\'as de chances de tomber sur une jolie fille qui tricote assise sur le rebord de la fenetre \1\s[10]je doute qu\'une telle etude existe", "\0\s[3]j'adore quand une jolie fille me dis un truc gentil"
+
+rav : "\0\s[1]ca n\'a rien a voir...", "\0\s[1]c\'est different...", "\0\s[1]oui bon...", "\0\s[4]Comment j\'ai pu oublier..."
+
+routine : "\1\s[10]\n\nDecidement...", "\1\s[10]\n\nPour changer...", "\1\s[10]\n\nAmuse toi bien !", "\1\s[10]\n\nEncore??", "\1\s[10]\n\nTu fais bien","\1\s[10]\n\nBonne idee"
+
+journee : "\0\s[2]"${faire}" "${activite}" "${routine}" ", "\0\s[3]je vais rejoindre "${gensCool}" on va "${activite}" "\1\s[10]\n\namusez-vous bien <3"
+
+info : "\1\s[10]tu savais que tu pouvais drag n drop une musique sur moi ? tu peu double cliquer sur mon oreille gauche pour faire play, et mon oreille droite pour arreter le son", "\0\s[2]j\'utilise pas d'accent j\'ai peur de corrompre quelques chose quand je parle \1\s[10]ca t\'arrange bien vu le nombre de fautes que tu fais par phrase... \w[500]\0\s[5]\n\nje suis dyslexique...", "\1\s[10]tu ne mets jamais de points a la fin de tes phrases ? \0\s[3]j\'aime pas ca... pourquoi mettre un point quand on peu mettre un coeur ? <3"
+
+plat : "du riz cantonnais", "un tacos", "une soupe a l'oignon", "une soupe de cresson", "une quiche"
+
+gentillesse : "m'a propse de passer l\'apres-midi a "${activite}" ", "m\'a cuisine "${plat}" ", "m\'a invite a manger "${plat}" ", "a complimente mes cheveux"
+
+grateful : "ca a egaille ma journee", "ca m\'a remonte le moral \1\s[10]ca n\'allait pas ? \0\s[2]\n\n\j\'avais un petit coup de mou mais maintenant ca va mieux", "ca me rend tellement heureuse..." 
+
+pref : (
+	"\0\s[0]"${jvCool}" est vraiment mon jeux prefere...\n\n"
+	${dubitatif_jv}
+	${rav}
+)
+
+pref : (
+	"\0\s[0]"${album}" est vraiment mon album prefere...\n\n"
+	${dubitatif_album}
+	${rav}
+)
+
+amour : "\0\s[2]je suis sure que \f[color,red]Cerise\f[color,default] prends le temps d\'ecouter tout les coquillages qu\'elle ramasse. ca me donne envie de lui confier mes secret je suis sure qu\'elle en prendrais soins", "\0\s[2]\f[color,red]Cerise\f[color,default] m\'a fais un compliment, ca fais une semaine que j\'y pense tout les soirs avant de m\'endormir", "\0\s[2]je repense souvent a comment \f[color,yellow]Olive\f[color,default] me regardais. etait-ce sincere ou pas je ne prefere pas y penser. il y a des souvenir qu\'il vaut mieux cherir.", "\0\s[2]j\'ai encore croise \f[color,yellow]Olive\f[color,default] il est encore plus beau qu\'avant...", "\0\s[1]\f[color,yellow]Olive\f[color,default] m\'a encore dit qu\'il m\'aimait... je hais ce type", "\0\s[2]\f[color,orange]Melon\f[color,default] est le seul qui sait prendre le temps de m\'ecouter, je ne suis pas sure qu\'il comprene tout, mais si c\'est important pour moi, alors ca l\'interesse", "\0\s[2]je devrais proposer a \f[color,orange]Melon\f[color,default] de danser avec moi je suis sur qu\'il serait d\'accord", "\0\s[3]j\'ai encore ecoutee \f[color,orange]Melon\f[color,default] me parler de sa nouvelle passion et son enthousiasme est tellement contagieux que je souris bettement depuis 15 minutes", "\0\s[2]une fois j'ai rencontree une fille a Lyon, on s'est raconte nos vies et on a danse sur les quais du rhone, j\'ai dormis chez elle le soir meme et ne l\'ai plus jamais revu. \w[50] je pense a elle souvent. j\'ai meme ecris un poeme qui parle de ce souvenir", "\0\s[2]au college j\'avais ecris un poeme a une fille pour lui declarer mon amour, je lui avais donne en mains propre avant de m\'enfuir en courant. elle m\'avais repondu avec une lettre sur un beau papier m\'expliquant qu\'elle ne partageait pas les meme sentiment que moi. la lettre etait accompagnee d'un petit dessin. plus tard, j\'ai continue a envoye des lettres pour me decharger de l\'affection que debordante que j'ai pu avoir pour certaines personnes, mais celles-ci sont toute restees sans reponses"
+
+friend : (
+    "\1\s[10]tu vas faire quoi aujourd'hui ?\n\n[half]"
+    ${journee}
+)
+
+friend : (
+	"\1\s[10]j'ai entendu dire que "${gensCool}" avait prevu de passer sa journee a "${activite}"
+	${reaction_rumeur}
+)
+
+friend : (
+	"\0\s[0]j\'ai croise "${gensCool}" "${lieuCool}" j\'aurais aime que l'on puisse "${activite}" "${malheuresement}" "
+)
+
+friend : (
+	"\0\s[3]\ "${gensCool}" "${gentillesse}", "${grateful}" "
+)
+
+gout : ${pref}, ${jaime}
+
+sentence : ( ${friend} )
+
+sentence : ( ${friend} )
+
+sentence : ( ${friend} )
+
+sentence : ( ${gout} )
+
+sentence : ( ${gout} )
+
+sentence : ( ${info} )
+
+sentence : ( ${random} )
+
+sentence : ( ${random} )
+
+sentence : ( ${amour} )
+
+talk.OnHourTimeSignal : $(setstr @minute $(date %M)) "\0\s[0]il est %hour:"${@minute}"!"
+
+=kis
+Nonoverlap sentence;
+Nonoverlap jvCool;
+Nonoverlap animeCool;
+Nonoverlap album;
+=end
+
