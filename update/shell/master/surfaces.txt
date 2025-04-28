@@ -58,7 +58,7 @@ animation3.pattern1,overlay,-1,100,0,0
 
 }
 
-surface3,surface4,surface5,surface6,surface7
+surface3,surface4,surface5
 {
 
 collision0,235,44,358,144,Head
@@ -67,7 +67,7 @@ collision2,220,165,364,441,chemise
 
 }
 
-surface7
+surface6,surface7
 {
 
 #Talking Animation
