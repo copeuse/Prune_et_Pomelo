@@ -71,15 +71,17 @@ surface6,surface7
 {
 
 #Talking Animation
+animation1.interval,random,
 animation1.pattern0,alternativestart,[2.3]
 
 animation2.interval,never
-animation2.pattern0,overlay,1002,200,0,0
+animation2.pattern0,overlay,1002,500,0,0
 animation2.pattern1,overlay,-1,100,0,0
 
 animation3.interval,never
-animation3.pattern0,overlay,1002,300,0,0
+animation3.pattern0,overlay,1002,1000,0,0
 animation3.pattern1,overlay,-1,100,0,0
+animation3.pattern2,overlay,1002,500,0,0
 
 collision0,235,44,358,144,Head
 collision1,119,270,207,364,trefle
