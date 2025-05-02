@@ -8,9 +8,6 @@ craftman,Alice
 craftmanw,alice
 craftmanurl,https://bsky.app/profile/spaceghostpink.bsky.social
 
-//homeurl,http://www.yourwebspace.com/yourballoondirectory/
-
-
 use_self_alpha,1
 
 origin.x,57
@@ -40,7 +37,6 @@ anchor.font.color.b,173
 cursor.blendmethod,none
 cursor.style,underline
 
-
 cursor.pen.color.r,41
 cursor.pen.color.g,255
 cursor.pen.color.b,41
@@ -53,13 +49,18 @@ cursor.font.color.r,41
 cursor.font.color.g,255
 cursor.font.color.b,41
 
-
+sstpmessage.font.height,9
+sstpmessage.font.color.r,209
+sstpmessage.font.color.g,255
+sstpmessage.font.color.b,0
+sstpmessage.x,200
+sstpmessage.y,180
 
 number.font.name,Microsoft Sans Serif
 number.font.height,10
 number.font.color.r,125
 number.font.color.g,127
 number.font.color.b,139
-number.xr,230
+number.xr,350
 number.y,179
 

@@ -6,9 +6,9 @@ descript
 surface0,surface2
 {
 
-collision0,235,44,358,144,Head
-collision1,119,270,207,364,trefle
-collision2,220,165,364,441,chemise
+collision0,169,30,242,102,Head
+collision1,85,196,152,266,trefle
+collision2,154,116,263,323,chemise
 
 #blink
 animation10.interval,random,4
@@ -40,9 +40,9 @@ animation3.pattern1,overlay,-1,100,0,0
 surface1
 {
 
-collision0,235,44,358,144,Head
-collision1,119,270,207,364,trefle
-collision2,220,165,364,441,chemise
+collision0,169,30,242,102,Head
+collision1,85,196,152,266,trefle
+collision2,154,116,263,323,chemise
 
 #Talking Animation
 animation1.interval,talk
@@ -58,21 +58,44 @@ animation3.pattern1,overlay,-1,100,0,0
 
 }
 
-surface3,surface4,surface5,surface6
+surface3,surface4,surface5
 {
 
-collision0,235,44,358,144,Head
-collision1,119,270,207,364,trefle
-collision2,220,165,364,441,chemise
+collision0,169,30,242,102,Head
+collision1,85,196,152,266,trefle
+collision2,154,116,263,323,chemise
+
+}
+
+surface6,surface7
+{
+
+#Talking Animation
+animation1.interval,random,
+animation1.pattern0,alternativestart,[2.3]
+
+animation2.interval,never
+animation2.pattern0,overlay,1002,500,0,0
+animation2.pattern1,overlay,-1,100,0,0
+
+animation3.interval,never
+animation3.pattern0,overlay,1002,1000,0,0
+animation3.pattern1,overlay,-1,100,0,0
+animation3.pattern2,overlay,1002,500,0,0
+
+collision0,169,30,242,102,Head
+collision1,85,196,152,266,trefle
+collision2,154,116,263,323,chemise
+
 
 }
 
 surface10
 {
 
-collision0,191,447,281,521,body
-collision1,291,462,310,490,play
-collision2,335,462,360,490,stop
+collision0,137,325,210,395,body
+collision1,211,336,228,359,play
+collision2,244,336,264,356,stop
 
 
 }
