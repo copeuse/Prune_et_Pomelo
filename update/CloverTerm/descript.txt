@@ -61,6 +61,6 @@ number.font.height,10
 number.font.color.r,125
 number.font.color.g,127
 number.font.color.b,139
-number.xr,230
+number.xr,350
 number.y,179
 
