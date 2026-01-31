@@ -28,6 +28,3 @@ Tada ! Prune est maintenant dans le coin de votre écran !
 
 c'est la première fois que je code quelque chose, pour l'instant elle ne fonctionne pas parfaitement et elle est très limitée en therme de personalité, mais j'espère qu'elle vous plaira ! si c'est le cas je continuerais de l'améliorer.
 
-#ajouter animation chant
-#re-upscale les surfaces
-#remettre accents
